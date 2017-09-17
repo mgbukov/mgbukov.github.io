@@ -1,18 +1,23 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Marin Bukov, PhD
+email: mgbukov(at)berkeley.edu
+address: Department of Physics <br> University of California, Berkeley <br> office 339 <br> 366 LeConte Hall MC 7300 <br> Berkeley, CA 94720-7300
+gmaps_coords: 37.8726631,-122.2575264,15z/
+
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I study the dynamics of out-of-equilibrium many-body quantum and classical systems. My research focusses on 
+  Condensed Matter Physics, Ultracold Atoms, and Statistical Mechanics, and the interplay between Machine
+  Learning and Physics. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://mgbukov.github.io/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-google_play: 'GDGX'
-google_plus_com: '109485346959707049693'  # Community link
-google_plus_per: '+GDGManagua'  #Personal link
-facebook_app_id: 12345
+
+#twitter_username: jekyllrb
+github_username:  mgbukov
+#google_play: 'GDGX'
+#google_plus_com: '109485346959707049693'  # Community link
+#google_plus_per: '+GDGManagua'  #Personal link
+#facebook_app_id: 12345
+linkedin_id: marin-bukov-80b69312a
 
 # Layout settings
 header_type: default  # values [ drawer, default ]
@@ -20,18 +25,18 @@ post_type: highlight    # values [ highlight, default ]
 pagination_type: default  # values [ ops, default ]
 
 more_vert:
-  option1:
-    name: Cool Option 1
-    link: www.myawesomelink.com
   option2:
-    name: Cool Option 2
-    link: www.myawesomelink.com
+    name: Google Scholar
+    link: https://scholar.google.com/citations?user=xRJLNpAAAAAJ&hl=en
   option3:
-    name: Cool Option 3
-    link: www.myawesomelink.com
+    name: Publications
+    link: https://arxiv.org/find/cond-mat/1/au:+Bukov_M/0/1/0/all/0/1
 
-disqus: true
-disqus_shortname: 'gdgmanagua'
+disqus: false
+#disqus_shortname: 'gdgmanagua'
 
 # Build settings
 markdown: kramdown
+
+# Google Analytics
+google_analytics: UA-106553509-1

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>QuSpin</title>
+  <meta name="description" content="The ability to simulate quantum systems offers invaluable opportunities for building up intuition and understanding about the bizzare world of quantum mechan...">
+
+  <link rel="canonical" href="http://localhost:4000/quspin/2016/09/01/quspin.html">
+  <link rel="alternate" type="application/rss+xml" title="Marin Bukov, PhD" href="http://localhost:4000/feed.xml" />
+
+  <!-- Material Design Lite css Library -->
+  <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+  
+  <!-- Material Design Fonts -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Custom theme css -->
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- Google analytics -->
+  
+</head>
+
+
+  <body>
+
+    <!-- Start Layout -->
+    
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- search layout -->
+<div class="super-search" id="js-search">
+  <ul class="super-search__results" id="js-search__results"></ul>        
+  <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored super-search__close-btn" onclick="superSearch.toggle()">
+    <i class="material-icons">close</i>
+  </button>
+</div>
+<!-- /end search -->
+        <header class="mdl-layout__header">
+
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Marin Bukov, PhD</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      
+
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable is-upgraded">
+        <label class="mdl-button mdl-js-button mdl-button--icon" for="js-search__input">
+          <i class="material-icons">search</i>
+        </label>
+
+        <div class="mdl-textfield__expandable-holder" >
+          <input class="mdl-textfield__input super-search__input" type="text" id="js-search__input" />
+        </div>
+      </div>
+      
+      <button class="mdl-button mdl-js-button mdl-button--icon" id="menu-lower-left">
+        <i class="material-icons">more_vert</i>
+      </button>
+
+      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="menu-lower-left">
+        
+        <li><a href="https://scholar.google.com/citations?user=xRJLNpAAAAAJ&hl=en" class="mdl-menu__item">Google Scholar</a></li>
+        
+        <li><a href="https://arxiv.org/find/cond-mat/1/au:+Bukov_M/0/1/0/all/0/1" class="mdl-menu__item">Publications</a></li>
+        
+      </ul>
+    </div>
+  </header>
+
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Menu</span>
+    <nav class="mdl-navigation">
+    <a class="mdl-navigation__link" href="/">HOME</a>
+    
+      
+      <a class="mdl-navigation__link" href="/CV/">CV</a>
+      
+    
+      
+    
+      
+    
+      
+    
+    
+      
+    
+      
+      <a class="mdl-navigation__link" href="/control_phases/2017/08/20/control_phases.html">Phase Transitions of Quantum Control</a>
+      
+    
+      
+      <a class="mdl-navigation__link" href="/ml/2017/04/01/ML.html">Reinforcement Learning Quantum State Preparation</a>
+      
+    
+      
+      <a class="mdl-navigation__link" href="/floquet/2017/01/22/floquet.html">Periodically Driven Systems</a>
+      
+    
+      
+      <a class="mdl-navigation__link" href="/quspin/2016/09/01/quspin.html">QuSpin</a>
+      
+    
+    </nav>
+
+  </div>
+
+
+    
+
+    <div class="post-ribbon"></div>
+<main class="post-main mdl-layout__content">
+  <div class="post-container mdl-grid">
+    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+    <div class="post-section mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+      <div class="mdl-color-text--grey-500">
+      Sep 1, 2016 • QuSpin • Marin Bukov •  quspin  
+      </div>
+      <h3>QuSpin</h3>
+      <article class="post-content">
+        <p><p>The ability to simulate quantum systems offers invaluable opportunities for building up intuition and understanding about the bizzare world of quantum mechanics. We developed <strong><em>QuSpin</em></strong> – an <strong>open source</strong> Python package for exact diagonalisation and dynamics of quantum many-body systems.</p>
+
+<p>Understanding the physics of many-body quantum condensed matter systems often involves a great deal of numerical simulations, be it to gain intuition about the complicated problem of interest, or because they do not admit an analytical solution which can be expressed in a closed form. <a href="https://scipost.org/10.21468/SciPostPhys.2.1.003">QuSpin</a> is an ED-based package which wraps some of the functionality of Python’s Numpy and Scipy libraries, to efficiently allow for the user-friendly simulation of quantum many-body systems <span style="color:blue">[1,2]</span>.</p>
+
+<p>As scientists, it is particularly useful to have a reliable toolbox available at our disposal which allows us to quickly simulate and study these and related nonequilibrium problems. As such, QuSpin offers easy access to performing numerical simulations, which can facilitate the development and inspiration of new ideas and the discovery of novel phenomena, eliminating the cost of spending time to develop a reliable code. Besides theorists, QuSpin will hopefully even prove valuable to experimentalists working on problems containing dynamical setups, as it can help students and researchers focus on perfecting the experiment, rather than worry about writing the supporting simulation code.</p>
+
+<p>With the computational processing power growing higher than ever before, the role played by simulations for theoretical research becomes increasingly more important too. It can, therefore, be expected that in the near future quantum simulations become an integral part of the standard physics university curriculum, and having easily accessible toolboxes, such as QuSpin, is one of the required prerequisites for this anticipated change.</p>
+
+<p>Check out QuSpin’s <a href=""><strong><em>Documentation</em></strong></a> for guidance how to install and use tha package, as well as the project’s <a href="https://github.com/weinbe58/QuSpin#quspin"><em>Github repository</em></a> for more information.</p>
+
+<p>The following snippet of code shows how one can employ QuSpin to study the thermalising dynamics of the following peoriodically-driven closed spin chain</p>
+
+<script type="math/tex; mode=display">i \partial_t|\psi(t)\rangle = H(t)|\psi(t)\rangle,\qquad |\psi(0)\rangle=|\mathrm{GS}[H(t=0)]\rangle</script>
+
+<script type="math/tex; mode=display">H(t) = \sum_{j=0}^{L-1} \left( JS^z_{j+1}S^z_j + hS^z_j + g\cos(\Omega t)S^x_j \right)</script>
+
+<p>in the zero-momentum sector (<code class="highlighter-rouge">kblock=0</code>) of positive parity (<code class="highlighter-rouge">pblock=1</code>).</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">quspin.operators</span> <span class="kn">import</span> <span class="n">hamiltonian</span> <span class="c"># Hamiltonians and operators</span>
+<span class="kn">from</span> <span class="nn">quspin.basis</span> <span class="kn">import</span> <span class="n">spin_basis_1d</span> <span class="c"># Hilbert space spin basis</span>
+<span class="kn">from</span> <span class="nn">quspin.tools.Floquet</span> <span class="kn">import</span> <span class="n">Floquet_t_vec</span> <span class="c"># stroboscopic time vector</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span> <span class="c"># generic math functions</span>
+<span class="c">#</span>
+<span class="c">##### define model parameters #####</span>
+<span class="n">L</span><span class="o">=</span><span class="mi">4</span> <span class="c"># system size</span>
+<span class="n">J</span><span class="o">=</span><span class="mf">1.0</span> <span class="c"># spin interaction</span>
+<span class="n">g</span><span class="o">=</span><span class="mf">0.809</span> <span class="c"># transverse field</span>
+<span class="n">h</span><span class="o">=</span><span class="mf">0.9045</span> <span class="c"># longitudinal field</span>
+<span class="c">##### define periodic drive #####</span>
+<span class="n">Omega</span><span class="o">=</span><span class="mf">4.5</span> <span class="c"># drive frequency</span>
+<span class="k">def</span> <span class="nf">drive</span><span class="p">(</span><span class="n">t</span><span class="p">,</span><span class="n">Omega</span><span class="p">):</span>
+	<span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">Omega</span><span class="o">*</span><span class="n">t</span><span class="p">)</span>
+<span class="n">drive_args</span><span class="o">=</span><span class="p">[</span><span class="n">Omega</span><span class="p">]</span>
+<span class="c">#</span>
+<span class="c">##### construct basis in the 0-total momentum and +1-parity sector</span>
+<span class="n">basis</span><span class="o">=</span><span class="n">spin_basis_1d</span><span class="p">(</span><span class="n">L</span><span class="o">=</span><span class="n">L</span><span class="p">,</span><span class="n">a</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">kblock</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">pblock</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="c"># define PBC site-coupling lists for operators</span>
+<span class="n">x_field</span><span class="o">=</span><span class="p">[[</span><span class="n">g</span><span class="p">,</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">L</span><span class="p">)]</span>
+<span class="n">z_field</span><span class="o">=</span><span class="p">[[</span><span class="n">h</span><span class="p">,</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">L</span><span class="p">)]</span>
+<span class="n">J_nn</span><span class="o">=</span><span class="p">[[</span><span class="n">J</span><span class="p">,</span><span class="n">i</span><span class="p">,(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">%</span><span class="n">L</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">L</span><span class="p">)]</span> <span class="c"># PBC</span>
+<span class="c"># static and dynamic lists</span>
+<span class="n">static</span><span class="o">=</span><span class="p">[[</span><span class="s">"zz"</span><span class="p">,</span><span class="n">J_nn</span><span class="p">],[</span><span class="s">"z"</span><span class="p">,</span><span class="n">z_field</span><span class="p">]]</span>
+<span class="n">dynamic</span><span class="o">=</span><span class="p">[[</span><span class="s">"x"</span><span class="p">,</span><span class="n">x_field</span><span class="p">,</span><span class="n">drive</span><span class="p">,</span><span class="n">drive_args</span><span class="p">]]</span>
+<span class="c">##### construct Hamiltonian and define initial state</span>
+<span class="n">H</span><span class="o">=</span><span class="n">hamiltonian</span><span class="p">(</span><span class="n">static</span><span class="p">,</span><span class="n">dynamic</span><span class="p">,</span><span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float64</span><span class="p">,</span><span class="n">basis</span><span class="o">=</span><span class="n">basis</span><span class="p">)</span>
+<span class="c"># get GS of H(t=0)</span>
+<span class="n">E</span><span class="p">,</span><span class="n">V</span><span class="o">=</span><span class="n">H</span><span class="o">.</span><span class="n">eigsh</span><span class="p">(</span><span class="n">time</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span><span class="n">k</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">which</span><span class="o">=</span><span class="s">'SA'</span><span class="p">)</span>
+<span class="n">psi_i</span><span class="o">=</span><span class="n">V</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">squeeze</span><span class="p">()</span>
+<span class="c">##### define time vector and evolve state</span>
+<span class="n">t</span><span class="o">=</span><span class="n">Floquet_t_vec</span><span class="p">(</span><span class="n">Omega</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">psi_t</span><span class="o">=</span><span class="n">H</span><span class="o">.</span><span class="n">evolve</span><span class="p">(</span><span class="n">psi_i</span><span class="p">,</span><span class="n">t</span><span class="o">.</span><span class="n">i</span><span class="p">,</span><span class="n">t</span><span class="o">.</span><span class="n">vals</span><span class="p">)</span></code></pre></figure>
+
+<p><em>References</em>:<br />
+<a href="https://scipost.org/10.21468/SciPostPhys.2.1.003" style="color: #0000cd">[1] P. Weinberg and <strong>M.B.</strong>, <em>SciPost Phys.</em> <strong>2</strong>, 003 (2017).</a></p>
+
+<p>Copyright © 2017 Marin Bukov</p>
+</p>
+      </article>
+      <!-- Disqus comments -->
+      
+      <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+    </div>
+  </div>
+</main>
+
+    <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer--middle-section">
+
+    <div class="mdl-mega-footer--drop-down-section">
+      <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer--heading">CONTACT</h1>
+      <ul class="mdl-mega-footer--link-list">
+        <li><a >mgbukov(at)berkeley.edu</a></li>
+        <!--
+        <li><a href="mailto:mgbukov(at)berkeley.edu">mgbukov(at)berkeley.edu</a></li>
+        <li><a href="/feed.xml">subscribe via RSS</a></li>
+        -->
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer--drop-down-section">
+      <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer--heading">ADDRESS</h1>
+      <ul class="mdl-mega-footer--link-list">
+        <li><a href="https://www.google.com/maps/place/LeConte+Hall/@37.8726631,-122.2575264,15z/">Department of Physics <br> University of California, Berkeley <br> office 339 <br> 366 LeConte Hall MC 7300 <br> Berkeley, CA 94720-7300</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer--drop-down-section">
+      <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer--heading">SOCIAL</h1>
+      <ul class="mdl-mega-footer--link-list">
+        
+        <li>
+          <a href="https://github.com/mgbukov">
+            <span class="icon  icon--github">
+              <svg viewBox="0 0 16 16">
+                <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+              </svg>
+            </span>
+
+            <span class="username">mgbukov</span>
+          </a>
+        </li>
+        
+        
+
+	  
+
+      
+	  
+
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/marin-bukov-80b69312a">
+            <span class="icon  icon--linkedin">
+              <svg style="width:16px;height:16px" viewBox="0 0 24 24">
+                <path fill="#000000" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+              </svg>
+            </span>
+
+            <span class="username">LinkedIn</span>
+          </a>
+        </li>
+      
+	  
+      </ul>
+    </div>
+
+    <!--
+    <div class="mdl-mega-footer--drop-down-section">
+      <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer--heading">ABOUT</h1>
+      <ul class="mdl-mega-footer--link-list">
+        <li>I study the dynamics of out-of-equilibrium many-body quantum and classical systems. My research focusses on  Condensed Matter Physics, Ultracold Atoms, and Statistical Mechanics, and the interplay between Machine Learning and Physics. 
+</li>
+      </ul>
+    </div>
+    -->
+
+  </div>
+
+  <div class="mdl-mega-footer--bottom-section">
+    <div class="mdl-logo">Marin Bukov, PhD</div>
+    <!--
+    <ul class="mdl-mega-footer--link-list">
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy & Terms</a></li>
+    </ul>
+    -->
+  </div>
+
+</footer>
+
+
+    </div>
+    <!-- /End Layout -->
+
+    <!-- Material Design Lite js Library -->
+    <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    
+    <script rel="javascript" type="text/javascript" src="/js/search.js"></script>
+    <script rel="javascript" type="text/javascript">
+      superSearch({
+        searchFile: '/feed.xml',
+        searchSelector: '#js-search', // CSS Selector for search container element.
+        inputSelector: '#js-search__input', // CSS selector for <input>
+        resultsSelector: '#js-search__results' // CSS selector for results container
+      });
+    </script>
+  </body>
+
+</html>

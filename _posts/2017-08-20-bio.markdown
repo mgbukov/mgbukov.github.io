@@ -1,0 +1,19 @@
+---
+layout: post
+title: "" 
+date:   2017-08-20 17:00:00
+categories: bio
+highlight: true
+author: Marin Bukov
+---
+<img align="right" src="/img/bukov.png" alt="me" description="Drawing" style="width: 160px;"/>
+### Welcome to my homepage!
+<br>
+I am currently a Gordon and Betty Moore postdoctoral research fellow at the Physics Department, University of California (Berkeley). I study the dynamics of many-body quantum and classical systems away from equilibrium.
+My research focusses on Condensed Matter Physics, Ultracold Atoms, Statistical Mechanics, and the interplay between Machine Learning and Physics.
+<br>
+<br>
+You can learn more about me and my research on this website. 
+
+ 
+Copyright © 2017 Marin Bukov

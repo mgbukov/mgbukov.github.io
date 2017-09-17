@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marin Bukov, PhD</title>
+    <description>I study the dynamics of out-of-equilibrium many-body quantum and classical systems. My research focusses on  Condensed Matter Physics, Ultracold Atoms, and Statistical Mechanics, and the interplay between Machine Learning and Physics. 
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 17 Sep 2017 16:41:24 -0700</pubDate>
+    <lastBuildDate>Sun, 17 Sep 2017 16:41:24 -0700</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title></title>
+        <description>&lt;p&gt;&lt;img align=&quot;right&quot; src=&quot;/img/bukov.png&quot; alt=&quot;me&quot; description=&quot;Drawing&quot; style=&quot;width: 160px;&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;welcome-to-my-homepage&quot;&gt;Welcome to my homepage!&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+I am currently a Gordon and Betty Moore postdoctoral research fellow at the Physics Department, University of California (Berkeley). I study the dynamics of many-body quantum and classical systems away from equilibrium.
+My research focusses on Condensed Matter Physics, Ultracold Atoms, Statistical Mechanics, and the interplay between Machine Learning and Physics.
+&lt;br /&gt;
+&lt;br /&gt;
+You can learn more about me and my research on this website.&lt;/p&gt;
+
+&lt;p&gt;Copyright © 2017 Marin Bukov&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Aug 2017 10:00:00 -0700</pubDate>
+        <link>http://localhost:4000/bio/2017/08/20/bio.html</link>
+        <guid isPermaLink="true">http://localhost:4000/bio/2017/08/20/bio.html</guid>
+        
+        
+        <category>bio</category>
+        
+      </item>
+    
+      <item>
+        <title>Phase Transitions of Quantum Control</title>
+        <description>&lt;p&gt;Control problems are optimisation tasks with the objective to find the most efficient solution satisfying given constraints. We demonstrated that the difficulty of finding the optimal solution can change abruptly, resulting in the appearance of &lt;strong&gt;&lt;em&gt;Control Phase Transitions&lt;/em&gt;&lt;/strong&gt; in the optimisation landscape.&lt;/p&gt;
+
+&lt;p&gt;Phases of matter, such as liquid, solid and gas, contain valuable information about the behaviour and properties of its constituents.
+By changing an ambient parameter, e.g. temperature or pressure, a substance can undergo a phase transition, rapidly switching from one phase to another. Understanding how phase transitions occur and behave is crucial for correctly predicting the properties and functionality of devices in harsh environments.&lt;/p&gt;
+
+&lt;table class=&quot;image&quot; align=&quot;right&quot;&gt;
+&lt;caption align=&quot;bottom&quot;&gt;&lt;i&gt;Control pase diagram of quantum state preparation for two symemtrically-coupled qubits [cite].&lt;/i&gt;&lt;/caption&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/control_phasediag.png&quot; alt=&quot;Control Phase Diagram&quot; description=&quot;Drawing&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;We uncovered the existence of genuine phase transitions in the process of preparing states in quantum systems. It is remarkable that the same laws, which govern the evaporation of water into gas, apply to optimal manipulation of quantum states – a paradigm known as spontaneous symmetry breaking. Stunningly, the state preparation problem exhibits examples of prototypical equilibrium phase transitions in classical macroscopic systems: both first and second order phase transitions, a glass phase, and symmetry breaking, see Figure. These control phase transitions, present even in low-dimensional clean quantum systems, are of non-equilibrium nature. In much the same way conventional phase transitions play a quintessential role in understanding the properties of physical substances, the quantum control phase transitions carry far-reaching consequences for manipulating quantum states.&lt;/p&gt;
+
+&lt;p&gt;We study a two-qubit problem described by the Hamiltonian&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;H(t) = -2JS^z_1S^z_2 - h_z (S_1^z + S_2^z) - h_x(t)(S_1^x + S_2^x)&lt;/script&gt;
+
+&lt;p&gt;where \(J=h_z=1\) are the interaction strength and the static magnetic field along the \(\hat z\)-axis, respectively, and \(h_x(t)\) is the time-dependent control field. The Pauli spin-\(1/2\) operators are denoted \(S^\mu_{j=1,2}\). We prepare the system at time \(t=0\) in the ground state (GS) \(\vert\psi_i\rangle\) of \(H(t)\) for \(h_{x,i}=-2\), and want to transfer the population into the target state 
+\(\vert\psi_\ast\rangle\) – the GS for \(h_{x,\ast}=+2\) – in a fixed amount of time \(T\). Thus, our goal is to find the functional form of the driving protocol \(h_x(t)\) which maximises the fidelity of being in the target state \(F_h(T)=\vert\langle\psi(T)\vert\psi_*\rangle\vert^2\) at the end of the protocol, following Schrödinger evolution for a duration \(T\).&lt;/p&gt;
+
+&lt;p&gt;Each driving protocol induces a unique evolution of the quantum state, and thus can be classified by measuring the fidelity \(F_h(T)\) with which it prepares the target state. To every protocol, we can uniquely assign a single number – the infidelity \(I_h(T)=1-F_h(T)\) of being in the target state after evolution of time \(T\). This quantity gets smaller, the closer we get to the target state. One can imagine an infidelity landscape, which has a many local minima and maxima (“valeys” and “hills”), correspondng to different protocols. The &lt;em&gt;global&lt;/em&gt; minimum then corresponds to the optimal protocol, which solves the optimisation problem.&lt;/p&gt;
+
+&lt;p&gt;The figure above shows the phase diagram of this quantum control problem, as determined by the correlation function \(q(T) \), which measures the fluctuations between nearly optimal protocols. Starting at protocol times \(T\approx 3\), we find the optimal fidelity (blue line) at unity, which means that one can successfully and completely prepare the target state \(\vert\psi_\ast\rangle\). Therefore, the system is said to be in the &lt;em&gt;controllable&lt;/em&gt; phase (yellow).&lt;/p&gt;
+
+&lt;p&gt;At the quantum speed limit critical point \(T_\mathrm{QSL}\approx 2.8\), the infidelity landscape undergoes a continuous second-order transition to a glassy phase (blue, green). This phase transition occurs in an effective ulti-body classical model &lt;span style=&quot;color:blue&quot;&gt;[1]&lt;/span&gt;. For \(T&amp;lt;T_\text{QSL}\), the fidelity \(F_h(T)\) deviates from unity, and reaching the target state becomes impossible under the constraints of the problem. In this glassy phase &lt;span style=&quot;color:blue&quot;&gt;[2]&lt;/span&gt;, the protocols associated with local minima of the infidelity landscape become correlated, which is reflected in the finite value of the order parameter \(q(T)\). Due to the glassiness in the infidelity landscape, sophisticated algorithms with nonlocal updates are required to find the optimal protocol.&lt;/p&gt;
+
+&lt;p&gt;Surprisingly, the glassy phase of the system itself consists of two other phases: (i) for \(T\gtrsim T_\mathrm{sb}\approx \pi/2\), spontaneous symmetry breaking occurs in protocol space and there are two distinct, yet equivalent optimal driving protocols (green). Precisely at the symmetry breaking critical point \(T_\mathrm{sb}\), we find a discontinuity in \(q(T)\), and hence the transition is of first-order &lt;span style=&quot;color:blue&quot;&gt;[3]&lt;/span&gt;. Approaching the critical point from below, we find \(q(T\to T_\mathrm{sb}^-)=1\) which means that the protocols are completely uncorrelated, while the optimal fidelity exhibits a non-analytic plateau, see Figure. On the other hand, (ii), for \(T\lesssim T_\mathrm{sb}\), the glass phase is unbroken (blue), and there exists a unique optimal protocol.&lt;/p&gt;
+
+&lt;p&gt;Lowering the total protocol duration \(T\) further, we encounter yet another second-order phase transition at \(T=T_c\approx 0.38\), when the various minima of the infidelity landscape coalesce into a single global minimum. This suggests that the landscape in this &lt;em&gt;overconstrained&lt;/em&gt; phase (red) is convex, and optimisation is easy again, even though the optimal fidelities one can reach are pretty poor due to the short protocol duration.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;References&lt;/em&gt;:&lt;br /&gt;
+&lt;a href=&quot;&quot; style=&quot;color: #0000cd&quot;&gt;[1] A.G.R. Day, &lt;strong&gt;M.B&lt;/strong&gt;, P. Weinberg, A. Polkovnikov, P. Mehta, and D. Sels, &lt;em&gt;in preparation&lt;/em&gt; (2017).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1705.00565&quot; style=&quot;color: #0000cd&quot;&gt;[2] &lt;strong&gt;M.B.&lt;/strong&gt;, A.G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, P. Mehta, &lt;em&gt;arXiv: 1705.00565&lt;/em&gt; (2017).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;&quot; style=&quot;color: #0000cd&quot;&gt;[3] &lt;strong&gt;M.B.&lt;/strong&gt;, A.G.R. Day, P. Weinberg, P. Mehta, A. Polkovnikov, and D. Sels, &lt;em&gt;in preparation&lt;/em&gt; (2017).&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Copyright © 2017 Marin Bukov&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Aug 2017 06:00:00 -0700</pubDate>
+        <link>http://localhost:4000/control_phases/2017/08/20/control_phases.html</link>
+        <guid isPermaLink="true">http://localhost:4000/control_phases/2017/08/20/control_phases.html</guid>
+        
+        
+        <category>control_phases</category>
+        
+      </item>
+    
+      <item>
+        <title>Reinforcement Learning Quantum State Preparation</title>
+        <description>&lt;p&gt;A &lt;strong&gt;&lt;em&gt;Reinforcement Learning&lt;/em&gt;&lt;/strong&gt; agent learns to &lt;strong&gt;&lt;em&gt;Prepare Quantum States&lt;/em&gt;&lt;/strong&gt; in a non-integrable Ising chain. With no
+prior knowledge about the quantum system, the agent learns to extract the essential features of the optimal preparation protocol.&lt;/p&gt;
+
+&lt;p&gt;Machine Learning (ML) ideas have recently been applied to physics to detect phase transitions &lt;span style=&quot;color:blue&quot;&gt;[1]&lt;/span&gt;, and extract the essence of quantum mechanical wavefunctions &lt;span style=&quot;color:blue&quot;&gt;[2]&lt;/span&gt;. I have recently become interested in developing and applying Reinforcement Learning (RL) algorithms to study quantum dynamics. RL is a subfield of ML where a computer agent is taught to master a specific task by performing a series of actions in order to maximize a reward function. RL was used in the 90’s to create a computer agent to beat the world’s best backgammon players &lt;span style=&quot;color:blue&quot;&gt;[3]&lt;/span&gt;. Recently, Google DeepMind succeeded in teaching a RL agent to play the video games Atari and Go &lt;span style=&quot;color:blue&quot;&gt;[4,5]&lt;/span&gt;. Inspired by this success, we decided to investigate what insights in physics can be gained from such an approach.&lt;/p&gt;
+
+&lt;table class=&quot;image&quot; align=&quot;center&quot;&gt;
+&lt;caption align=&quot;bottom&quot;&gt;&lt;i&gt;Our computer agent learning how to prepare a target state for a single qubit [7].&lt;/i&gt;&lt;/caption&gt;
+&lt;tr&gt;&lt;td&gt;&lt;video width=&quot;504&quot; height=&quot;326&quot; preload=&quot;metadata&quot; controls=&quot;&quot; poster=&quot;/img/RL_bloch.png&quot;&gt;&lt;source src=&quot;/movies/qubit.mp4&quot; type=&quot;video/mp4; codecs=&amp;quot;avc1.42E01E, mp4a.40.2&amp;quot;&quot; /&gt;&lt;source src=&quot;/movies/qubit.ogv&quot; type=&quot;video/ogg; codecs=theora, vorbis&quot; /&gt;&lt;source src=&quot;/movies/qubit.webm&quot; type=&quot;video/webm; codecs=vp8, vorbis&quot; /&gt;&lt;/video&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;How does it Work?&lt;/em&gt;&lt;/strong&gt;—We used a modified version of Watkins online Q-learning algorithm with linear function approximation and eligibility traces &lt;span style=&quot;color:blue&quot;&gt;[6]&lt;/span&gt; to teach a RL agent to find an optimal protocol sequence to prepare a quantum system in a pre-defined target state &lt;span style=&quot;color:blue&quot;&gt;[7]&lt;/span&gt;. To manipulate the system, our computer agent constructs piecewise-constant protocols of duration \(T\) by choosing a drive protocol strength \(h_x(t)\) at each discrete time step \(t\). One can think of \(h_x(t)\) as a magnetic field applied to the system or, more generally — as a control knob. In order to make the agent learn, it is given a reward for every protocol it constructs – the fidelity \( F_h(T)=\lvert \langle\psi_\ast \vert \psi(T)\rangle
+\rvert ^2 \) for being in the target state after time \(T\) following the protocol \(h_x(t)\) &lt;em&gt;obeying the laws of Quantum Dynamics&lt;/em&gt;. The goal of the agent is to maximize the reward \( F_h(T)\) in a series of attempts. Deprived of any knowledge about the underlying physical model, the agent collects information about already tried protocols, based on which it constructs new, improved protocols through a sophisticated biased sampling algorithm[RL paper]. For simplicity, consider bang-bang protocols, (see Fig.), where \(h_x(t)\in\{\pm 4\}\), although we verified that RL also works for quasi-continuous protocols with many different protocol steps. You can learn more about our work in &lt;a href=&quot;https://arxiv.org/abs/1705.00565&quot;&gt;this paper&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table class=&quot;image&quot; align=&quot;right&quot;&gt;
+&lt;caption align=&quot;bottom&quot; style=&quot;text-align:center&quot;&gt;&lt;i&gt;Bang-bang protocols found by the RL agent for the single qubit (red) and the corresponding variational protocols (blue) [7].&lt;/i&gt;
+&lt;/caption&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img align=&quot;right&quot; src=&quot;/img/RL_protocols.png&quot; alt=&quot;Drawing&quot; style=&quot;width: 320px;&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Model&lt;/em&gt;&lt;/strong&gt;—To test the agent, we decided to prepare states in the transverse-field Ising chain:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;H(t) = -\sum_{j=1}^L \left( JS^z_{j+1}S^z_j + S^z_j + h_x(t)S^x_j\right)&lt;/script&gt;
+
+&lt;p&gt;To make the model untractable by perturbative analytical calculations, we add a parallel field and choose all couplings to be of the same order of magnitude so there is no small paramter. This model is known to be nonintegrable, and features thermalising (chaotic) dynamics. We choose the paramagnetic ground states of the above Hamiltonian at fields \(h_x/J=-2\) and \(h_x/J=2\) for the initial and target state, respectively. Even though there is only one control field in the problem, the space of available protocols grows exponentially with the inverse time step size and we have demonstrated numerically that it is exponentially hard to find the optimal protocol &lt;span style=&quot;color:blue&quot;&gt;[8]&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Constrained Qubit Manipulation&lt;/em&gt;&lt;/strong&gt;—To benchmark the performace of the RL agent, let us first set \(J=0\), so that the model decouples into a sequence of independent quantum bits, known as qubits. The movie above below shows the learning process of the RL agent for a single qubit. Notice that the protocol the agent finds after a series of attempts has a remarkable feature: without any prior knowledge about the intermediate quantum state nor its Bloch sphere representation [an effective geometric description for the quantum degrees of freedom of a single qubit], the RL agent discovers that it is advantageous to first bring the state to the equator – which is a geodesic – and then effectively turns off the field \(h_x(t)\), to enable the fastest possible precession about the \(\hat z\)-axis. After staying on the equator for as long as optimal, the agent rotates as fast as it can to bring the state as close as possible to the target, thus optimizing the final fidelity for the available protocol duration.&lt;/p&gt;
+
+&lt;table class=&quot;image&quot; align=&quot;center&quot;&gt;
+&lt;caption align=&quot;bottom&quot;&gt;&lt;i&gt;Learning how to prepare a target state in a system of many coupled qubits [7].&lt;/i&gt;&lt;/caption&gt;
+&lt;tr&gt;&lt;td&gt;&lt;video width=&quot;504&quot; height=&quot;326&quot; preload=&quot;metadata&quot; controls=&quot;&quot;&gt;&lt;source src=&quot;/movies/many_qubits.mp4#t=0.3&quot; /&gt;&lt;source src=&quot;/movies/many_qubits.ogv#t=0.3&quot; /&gt;&lt;source src=&quot;/movies/many_qubits.webm#t=0.3&quot; /&gt;&lt;/video&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;Many Coupled Qubits&lt;/em&gt;&lt;/strong&gt;—Back to the non-integrable model \(J=1\), it is impossible to visualise the driving protocol due to the exponentially many degrees of freedom in the problem. However, by putting the system on a closed chain and making use of translation invariance, all qubits behave in the same way on every lattice site. Hence, we can trace out all sites but one, and study the properties of the underlying reduced density matrix of the remaining qubit on the Bloch sphere. The second movie shows how our RL agent learns the physics of the many-body system. This counter-intuitive solution can also be found using optimal control algorithms, such as GRAPE &lt;span style=&quot;color:blue&quot;&gt;[9]&lt;/span&gt;, and hints towards the existence of bizzare principles that govern the physics of systems away from equilibrium.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;References&lt;/em&gt;:&lt;br /&gt;
+&lt;a href=&quot;https://www.nature.com/nphys/journal/v13/n5/full/nphys4035.html&quot; style=&quot;color: #0000cd&quot;&gt;[1] J. Carrasquilla and R. G. Melko, &lt;em&gt;Nat. Phys.&lt;/em&gt; &lt;strong&gt;13&lt;/strong&gt;, 431 (2017).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://science.sciencemag.org/content/355/6325/602&quot; style=&quot;color: #0000cd&quot;&gt;[2] G. Carleo and M. Troyer, &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;355&lt;/strong&gt;, 602 (2017).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://dl.acm.org/citation.cfm?doid=203330.203343&quot; style=&quot;color: #0000cd&quot;&gt;[3] G. Tesauro, &lt;em&gt;Communications of the ACM.&lt;/em&gt; &lt;strong&gt;38&lt;/strong&gt; (3) (1995).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.nature.com/nature/journal/v518/n7540/full/nature14236.html&quot; style=&quot;color: #0000cd&quot;&gt;[4] V. Mnih &lt;em&gt;et al.&lt;/em&gt;, &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;518&lt;/strong&gt;, 529 (2015), letter.&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.nature.com/nature/journal/v518/n7540/full/nature14236.html&quot; style=&quot;color: #0000cd&quot;&gt;[5] D. Silver,&lt;em&gt;et al.&lt;/em&gt;, &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;529&lt;/strong&gt;, 484 (2016), article.&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://people.inf.elte.hu/lorincz/Files/RL_2006/SuttonBook.pdf&quot; style=&quot;color: #0000cd&quot;&gt;[6] R. S. Sutton and A. G. Barto, &lt;em&gt;Reinforcement Learning: An Introduction&lt;/em&gt; (MIT Press, Cambridge, MA, 2017).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1705.00565&quot; style=&quot;color: #0000cd&quot;&gt;[7] &lt;strong&gt;M.B.&lt;/strong&gt;, A.G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, P. Mehta, &lt;em&gt;arXiv: 1705.00565&lt;/em&gt; (2017).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;&quot; style=&quot;color: #0000cd&quot;&gt;[8] A.G.R. Day, &lt;strong&gt;M.B.&lt;/strong&gt;, P. Weinberg, A. Polkovnikov, P. Mehta, and D. Sels, &lt;em&gt;in preparation&lt;/em&gt; (2017).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;&quot; style=&quot;color: #0000cd&quot;&gt;[9] N. Khaneja, T. Reiss, C. Kehlet, T. Schulte-Herbrüggen, and S. J. Glaser, &lt;em&gt;Journal of Magnetic Resonance&lt;/em&gt; &lt;strong&gt;172&lt;/strong&gt;, 296 (2005).&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Copyright © 2017 Marin Bukov&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Apr 2017 05:00:00 -0700</pubDate>
+        <link>http://localhost:4000/ml/2017/04/01/ML.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ml/2017/04/01/ML.html</guid>
+        
+        
+        <category>ML</category>
+        
+      </item>
+    
+      <item>
+        <title>Periodically Driven Systems</title>
+        <description>&lt;p&gt;Recent surge of activity in &lt;strong&gt;Periodically Driven many-body Systems&lt;/strong&gt; has spawned a new branch of quantum physics, known as &lt;em&gt;Floquet engineering&lt;/em&gt;: the synthetic generation of novel Hamiltonians, otherwise inaccessible in static condensed matter systems.&lt;/p&gt;
+
+&lt;p&gt;One of the main reasons periodically-driven (Floquet) quantum systems have attracted a lot of attention is that their dynamics can be efficiently described by a time-independent Floquet Hamiltonian \(H_F\). Positioned at the border between equilibrium and nonequilibrium, closed Floquet systems represent a natural playground for developing pioneering theories for the phenomena underlying the physics away from equilibrium.&lt;/p&gt;
+
+&lt;p&gt;I have been actively studying three main aspects of this ubiquitous field of physics (check out my &lt;a href=&quot;/files/Floquet_thesis.pdf&quot;&gt;PhD dissertation&lt;/a&gt;):&lt;/p&gt;
+
+&lt;table class=&quot;image&quot; align=&quot;right&quot;&gt;
+&lt;caption align=&quot;bottom&quot;&gt;&lt;i&gt;Floquet realization of the Harper-Hofstadter model [4-6].&lt;/i&gt;&lt;/caption&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/floquet.jpg&quot; alt=&quot;The Harper-Hofstadter Model&quot; description=&quot;Drawing&quot; style=&quot;width: 300px;&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Floquet Engineering&lt;/strong&gt; &lt;span style=&quot;color:blue&quot;&gt;[1-3]&lt;/span&gt; encompasses the study how to ascribe novel properties to the effective Floquet Hamiltonian at high drive frequencies (compared to all other energy scales of the problem). One paradigmatic example is the &lt;a href=&quot;https://www.youtube.com/watch?v=rwGAzy0noU0&quot;&gt;Kapitza pendulum&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;Mastering Floquet Engineering is a difficult problem, since most approaches are typically limited to perturbative and asymptotic expansions of \(H_F\). Moreover, it requires the understanding of a fine interplay between virtual (off-shell) and real (on-shell) photon absorption processes, induced by the periodic modulation.&lt;/p&gt;
+
+    &lt;p&gt;I contributed to this field by writing a review on the topic, systematizing different techniques of Floquet Engineering &lt;span style=&quot;color:blue&quot;&gt;[1]&lt;/span&gt;. I also worked on extending these ideas to strongly-interacting, strongly-driven and resonantly-driven systems &lt;span style=&quot;color:blue&quot;&gt;[7]&lt;/span&gt;, which are notoriously harder to study as they do not admit exact closed-form analytica solutions. A major part of my research is focussed on bringing out the nonequilibrium aspect of these systems, and contrasting it to their deceptive equilibrium-like properties.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table class=&quot;image&quot; align=&quot;right&quot;&gt;
+&lt;caption align=&quot;bottom&quot; style=&quot;text-align:center&quot;&gt;&lt;i&gt;Adiabatic passage through a photon absorption avoided crossing in the quasienergy spectrum of the Kapitza pendulum. The ground state (red) is hybridized with a higher-energy state (blue) close to the crossing [8].&lt;/i&gt;
+&lt;/caption&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img align=&quot;right&quot; src=&quot;/img/FAPT.png&quot; alt=&quot;Drawing&quot; style=&quot;width: 350px;&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Floquet State Preparation&lt;/strong&gt;. Knowing how to engineer a desired Floquet Hamiltonian appears insufficient in many
+experimental situations, since the interesting uderlying physics is not accessible in all of its eigenstates. Therefore, developing a theory for efficiently preparing Floquet states under the presence of periodic modulation can provide a bridge between many theoretical studies and their experimental ralisation.&lt;/p&gt;
+
+    &lt;p&gt;However, Floquet state preparation is a hard, since closed Floquet systems are not coupled to thermal reservoirs, which could provide a bath to dissipate the energy pumped in by the periodic drive during the loading process. Moreover, the adibatic limit is not well-defined either.&lt;/p&gt;
+
+    &lt;p&gt;I worked on deriving Floquet Adiabatic Perturbation Theory (FAPT) &lt;span style=&quot;color:blue&quot;&gt;[8]&lt;/span&gt; from first principles, extending Linear Response theory and Quantum Geometry to strong periodic drives. We showed that, even though the adiabatic limit may not be well defined, there exist parametrically large regimes where the predictions of FAPT remain valid, even for nonintegrable many-body systems. We analysed the crucial role of resonances for understanding the breakdown of FAPT.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table class=&quot;image&quot; align=&quot;right&quot;&gt;
+&lt;caption align=&quot;bottom&quot; style=&quot;text-align:center&quot;&gt;&lt;i&gt;A pair of many-body Floquet resonances resolved with the infinite-frequency Hamiltonian [13].&lt;/i&gt;
+&lt;/caption&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img align=&quot;right&quot; src=&quot;/img/floquet_res.png&quot; alt=&quot;Drawing&quot; style=&quot;width: 220px;&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Floquet (Pre-)Thermalization&lt;/strong&gt;. Assuming we have resolved the issues related to preparing a particular desired Floquet state, the interesting physics it hides can still easily remain elusive if the system absorbs a lot of energy from the perioic drive. Intuitively, one may expect that the periodic modulation pumps energy into the system, and ultimately heats it up to a featureless state. Perhaps surprisingly, at large drive frequencies, energy absorption has been found to be at least exponentially suppressed with the drive frequency &lt;span style=&quot;color:blue&quot;&gt;[9-10]&lt;/span&gt;. This opens up a large window where the system enters a pre-thermal Floquet steady state, captured by the physics of the effective Hamiltonian.&lt;/p&gt;
+
+    &lt;p&gt;The study of (pre-)thermal states emerging due to periodic modulation attempts at finding answers to the questions &lt;em&gt;how&lt;/em&gt; and &lt;em&gt;under what conditions&lt;/em&gt; Floquet systems heat up. This problem is particularly complicated even in equilibrium, since it generically appears for nonintegrable models where analytical control is scarce. Adding to the complexity, the only fully reliable numerical tool to study thermalisation problems is still Exact Diagonalisation.&lt;/p&gt;
+
+    &lt;p&gt;I studied extensively pre-thermalisation and stability of strongly-driven weakly-interacting bosonic systems, and developed a conserving approximation for weak interactions, mapping out the parametric stability diagram for the periodically-driven Bose-Hubbard model &lt;span style=&quot;color:blue&quot;&gt;[11-12]&lt;/span&gt;. I also made contributions to understanding the microscopic mechanisms behind energy absorption in strongly-interacting many-body quantum systems &lt;span style=&quot;color:blue&quot;&gt;[13]&lt;/span&gt;: at high driving frequencies energy absorption is inhibited by the locality of the Floquet Hamiltonian, and thermalisation is contrained by emergent effective local (quasi-)conserved quantities out to very long times. At low frequencies, on the other hand, a proliferation of many-body resonances, which are non-perturbative in te inverse driving frequency, leads to unconstrained thermalisation, and the system quickly heats up. These two regimes are separated by extremely slow, non-thermalising dynamics.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;References&lt;/em&gt;:&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1407.4803&quot; style=&quot;color: #0000cd&quot;&gt;[1] &lt;strong&gt;M.B.&lt;/strong&gt;, L. D’Alessio and A. Polkovnikov, &lt;em&gt;Advances in Physics&lt;/em&gt;, Vol. 64, No. 2, 139-226 (2015).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1404.4373&quot; style=&quot;color: #0000cd&quot;&gt;[2] N. Goldman and J. Dalibard, &lt;em&gt;Phys. Rev. X&lt;/em&gt;, 4, 031027 (2014).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1606.08041&quot; style=&quot;color: #0000cd&quot;&gt;[3] A. Eckardt, &lt;em&gt;Rev. Mod. Phys.&lt;/em&gt;, 89, 011004 (2017).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1308.0321&quot; style=&quot;color: #0000cd&quot;&gt;[4] M. Aidelsburger, M. Atala, M. Lohse, J. T. Barreiro, B. Paredes, and I. Bloch, &lt;em&gt;Phys. Rev. Lett.&lt;/em&gt;, 111, 185301 (2013).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1308.1431&quot; style=&quot;color: #0000cd&quot;&gt;[5] H. Miyake, G. A. Siviloglou, C. J. Kennedy, W. C. Burton, and W. Ketterle, &lt;em&gt;Phys. Rev. Lett.&lt;/em&gt;, 111, 185302 (2013).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1408.5209&quot; style=&quot;color: #0000cd&quot;&gt;[6] &lt;strong&gt;M.B.&lt;/strong&gt; and A. Polkovnikov, &lt;em&gt;Phys. Rev. A&lt;/em&gt;, 90, 043613 (2014).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1510.02744&quot; style=&quot;color: #0000cd&quot;&gt;[7] &lt;strong&gt;M.B.&lt;/strong&gt;, M. Kolodrubetz and A. Polkovnikov, &lt;em&gt;Phys. Rev. Lett.&lt;/em&gt;, 116, 125301 (2016).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1510.02744&quot; style=&quot;color: #0000cd&quot;&gt;[8] P. Weinberg, &lt;strong&gt;M.B.&lt;/strong&gt;, L. D’Alessio, A. Polkovnikov, S. Vajna, and M. Kolodrubetz, &lt;em&gt;Physics Reports&lt;/em&gt;, 688 1-35 (2017).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1507.01474&quot; style=&quot;color: #0000cd&quot;&gt;[9] D. Abanin, W. De Roeck, and F. Huveneers, &lt;em&gt;Phys. Rev. Lett.&lt;/em&gt;, 115, 256803 (2015).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1509.03968&quot; style=&quot;color: #0000cd&quot;&gt;[10] T. Mori, T. Kuwahara, and K. Saito, &lt;em&gt;Phys. Rev. Lett.&lt;/em&gt;, 116, 120401 (2016).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1507.01946&quot; style=&quot;color: #0000cd&quot;&gt;[11] &lt;strong&gt;M.B.&lt;/strong&gt;, S. Gopalakrishnan, M. Knap, and E. Demler, &lt;em&gt;Phys. Rev. Lett.&lt;/em&gt;, 115, 205301 (2015).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1610.02972&quot; style=&quot;color: #0000cd&quot;&gt;[12] S. Lellouch, &lt;strong&gt;M.B.&lt;/strong&gt;, E. Demler, and N. Goldman, &lt;em&gt;Phys. Rev. X&lt;/em&gt;, 7, 021015 (2017).&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://arxiv.org/abs/1512.02119&quot; style=&quot;color: #0000cd&quot;&gt;[13] &lt;strong&gt;M.B.&lt;/strong&gt;, M. Heyl, D. A. Huse, and A. Polkovnikov &lt;em&gt;Phys. Rev. B&lt;/em&gt;, 93, 155132 (2016).&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Copyright © 2017 Marin Bukov&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Jan 2017 06:00:00 -0800</pubDate>
+        <link>http://localhost:4000/floquet/2017/01/22/floquet.html</link>
+        <guid isPermaLink="true">http://localhost:4000/floquet/2017/01/22/floquet.html</guid>
+        
+        
+        <category>floquet</category>
+        
+      </item>
+    
+      <item>
+        <title>QuSpin</title>
+        <description>&lt;p&gt;The ability to simulate quantum systems offers invaluable opportunities for building up intuition and understanding about the bizzare world of quantum mechanics. We developed &lt;strong&gt;&lt;em&gt;QuSpin&lt;/em&gt;&lt;/strong&gt; – an &lt;strong&gt;open source&lt;/strong&gt; Python package for exact diagonalisation and dynamics of quantum many-body systems.&lt;/p&gt;
+
+&lt;p&gt;Understanding the physics of many-body quantum condensed matter systems often involves a great deal of numerical simulations, be it to gain intuition about the complicated problem of interest, or because they do not admit an analytical solution which can be expressed in a closed form. &lt;a href=&quot;https://scipost.org/10.21468/SciPostPhys.2.1.003&quot;&gt;QuSpin&lt;/a&gt; is an ED-based package which wraps some of the functionality of Python’s Numpy and Scipy libraries, to efficiently allow for the user-friendly simulation of quantum many-body systems &lt;span style=&quot;color:blue&quot;&gt;[1,2]&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;As scientists, it is particularly useful to have a reliable toolbox available at our disposal which allows us to quickly simulate and study these and related nonequilibrium problems. As such, QuSpin offers easy access to performing numerical simulations, which can facilitate the development and inspiration of new ideas and the discovery of novel phenomena, eliminating the cost of spending time to develop a reliable code. Besides theorists, QuSpin will hopefully even prove valuable to experimentalists working on problems containing dynamical setups, as it can help students and researchers focus on perfecting the experiment, rather than worry about writing the supporting simulation code.&lt;/p&gt;
+
+&lt;p&gt;With the computational processing power growing higher than ever before, the role played by simulations for theoretical research becomes increasingly more important too. It can, therefore, be expected that in the near future quantum simulations become an integral part of the standard physics university curriculum, and having easily accessible toolboxes, such as QuSpin, is one of the required prerequisites for this anticipated change.&lt;/p&gt;
+
+&lt;p&gt;Check out QuSpin’s &lt;a href=&quot;&quot;&gt;&lt;strong&gt;&lt;em&gt;Documentation&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; for guidance how to install and use tha package, as well as the project’s &lt;a href=&quot;https://github.com/weinbe58/QuSpin#quspin&quot;&gt;&lt;em&gt;Github repository&lt;/em&gt;&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;p&gt;The following snippet of code shows how one can employ QuSpin to study the thermalising dynamics of the following peoriodically-driven closed spin chain&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;i \partial_t|\psi(t)\rangle = H(t)|\psi(t)\rangle,\qquad |\psi(0)\rangle=|\mathrm{GS}[H(t=0)]\rangle&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;H(t) = \sum_{j=0}^{L-1} \left( JS^z_{j+1}S^z_j + hS^z_j + g\cos(\Omega t)S^x_j \right)&lt;/script&gt;
+
+&lt;p&gt;in the zero-momentum sector (&lt;code class=&quot;highlighter-rouge&quot;&gt;kblock=0&lt;/code&gt;) of positive parity (&lt;code class=&quot;highlighter-rouge&quot;&gt;pblock=1&lt;/code&gt;).&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;quspin.operators&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hamiltonian&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Hamiltonians and operators&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;quspin.basis&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;spin_basis_1d&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Hilbert space spin basis&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;quspin.tools.Floquet&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Floquet_t_vec&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# stroboscopic time vector&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;np&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# generic math functions&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;##### define model parameters #####&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# system size&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;J&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.0&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# spin interaction&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.809&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# transverse field&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.9045&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# longitudinal field&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;##### define periodic drive #####&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Omega&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.5&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# drive frequency&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;drive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Omega&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Omega&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;drive_args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Omega&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;##### construct basis in the 0-total momentum and +1-parity sector&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;basis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spin_basis_1d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kblock&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pblock&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# define PBC site-coupling lists for operators&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;x_field&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;z_field&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;J_nn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;J&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# PBC&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# static and dynamic lists&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;zz&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;J_nn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;z&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;z_field&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;dynamic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;x&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_field&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drive_args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;##### construct Hamiltonian and define initial state&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;H&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hamiltonian&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dynamic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dtype&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;float64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;basis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;basis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# get GS of H(t=0)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;H&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eigsh&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;which&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'SA'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;psi_i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;squeeze&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;##### define time vector and evolve state&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Floquet_t_vec&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Omega&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;psi_t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;H&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;evolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;References&lt;/em&gt;:&lt;br /&gt;
+&lt;a href=&quot;https://scipost.org/10.21468/SciPostPhys.2.1.003&quot; style=&quot;color: #0000cd&quot;&gt;[1] P. Weinberg and &lt;strong&gt;M.B.&lt;/strong&gt;, &lt;em&gt;SciPost Phys.&lt;/em&gt; &lt;strong&gt;2&lt;/strong&gt;, 003 (2017).&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Copyright © 2017 Marin Bukov&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Sep 2016 05:00:00 -0700</pubDate>
+        <link>http://localhost:4000/quspin/2016/09/01/quspin.html</link>
+        <guid isPermaLink="true">http://localhost:4000/quspin/2016/09/01/quspin.html</guid>
+        
+        
+        <category>quspin</category>
+        
+      </item>
+    
+  </channel>
+</rss>
