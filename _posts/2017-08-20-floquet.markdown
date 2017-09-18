@@ -9,7 +9,7 @@ image: /img/floquet.jpg
 ---
 Recent surge of activity in **Periodically Driven many-body Systems** has spawned a new branch of quantum physics, known as *Floquet engineering*: the synthetic generation of novel Hamiltonians, otherwise inaccessible in static condensed matter systems.
 
-One of the main reasons periodically-driven (Floquet) quantum systems have attracted a lot of attention is that their dynamics can be efficiently described by a time-independent Floquet Hamiltonian \\(H_F\\). Positioned at the border between equilibrium and nonequilibrium, closed Floquet systems represent a natural playground for developing pioneering theories for the phenomena underlying the physics away from equilibrium.
+One of the main reasons periodically-driven (Floquet) quantum systems have attracted a lot of attention is that their dynamics can be efficiently described by a time-independent Floquet Hamiltonian $H_F$. Positioned at the border between equilibrium and nonequilibrium, closed Floquet systems represent a natural playground for developing pioneering theories for the phenomena underlying the physics away from equilibrium.
 
 I have been actively studying three main aspects of this ubiquitous field of physics (check out my [PhD dissertation]({{ site.baseurl }}{% link files/Floquet_thesis.pdf %})):
 
@@ -19,7 +19,7 @@ I have been actively studying three main aspects of this ubiquitous field of phy
 </table>
 * **Floquet Engineering** <span style="color:blue">[1-3]</span> encompasses the study how to ascribe novel properties to the effective Floquet Hamiltonian at high drive frequencies (compared to all other energy scales of the problem). One paradigmatic example is the [Kapitza pendulum](https://www.youtube.com/watch?v=rwGAzy0noU0). 
 
-	Mastering Floquet Engineering is a difficult problem, since most approaches are typically limited to perturbative and asymptotic expansions of \\(H_F\\). Moreover, it requires the understanding of a fine interplay between virtual (off-shell) and real (on-shell) photon absorption processes, induced by the periodic modulation.
+	Mastering Floquet Engineering is a difficult problem, since most approaches are typically limited to perturbative and asymptotic expansions of $H_F$. Moreover, it requires the understanding of a fine interplay between virtual (off-shell) and real (on-shell) photon absorption processes, induced by the periodic modulation.
 
 	I contributed to this field by writing a review on the topic, systematizing different techniques of Floquet Engineering <span style="color:blue">[1]</span>. I also worked on extending these ideas to strongly-interacting, strongly-driven and resonantly-driven systems <span style="color:blue">[7]</span>, which are notoriously harder to study as they do not admit exact closed-form analytica solutions. A major part of my research is focussed on bringing out the nonequilibrium aspect of these systems, and contrasting it to their deceptive equilibrium-like properties.
 
