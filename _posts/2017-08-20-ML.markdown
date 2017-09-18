@@ -10,12 +10,18 @@ image: /img/RL_bloch.png
 A ***Reinforcement Learning*** agent learns to ***Prepare Quantum States*** in a non-integrable Ising chain. With no
 prior knowledge about the quantum system, the agent learns to extract the essential features of the optimal preparation protocol.
 
-Machine Learning (ML) ideas have recently been applied to physics to detect phase transitions <span style="color:blue">[1]</span>, and extract the essence of quantum mechanical wavefunctions <span style="color:blue">[2]</span>. I have recently become interested in developing and applying Reinforcement Learning (RL) algorithms to study quantum dynamics. RL is a subfield of ML where a computer agent is taught to master a specific task by performing a series of actions in order to maximize a reward function. RL was used in the 90's to create a computer agent to beat the world's best backgammon players <span style="color:blue">[3]</span>. Recently, Google DeepMind succeeded in teaching a RL agent to play the video games Atari and Go <span style="color:blue">[4,5]</span>. Inspired by this success, we decided to investigate what insights in physics can be gained from such an approach. 
+Machine Learning (ML) ideas have recently been applied to physics to detect phase transitions <span style="color:blue">[1]</span>, and extract the essence of quantum mechanical wavefunctions <span style="color:blue">[2]</span>. I have recently become interested in developing and applying Reinforcement Learning (RL) algorithms to study quantum dynamics. RL is a subfield of ML where a computer agent is taught to master a specific task by performing a series of actions in order to maximize a reward function. RL was used in the 90's to create a computer agent to beat the world's best backgammon players <span style="color:blue">[3]</span>. Recently, Google DeepMind succeeded in teaching a RL agent to play the video games Atari and Go <span style="color:blue">[4,5]</span>. Inspired by this success, we decided to investigate what insights in physics can be gained from such an approach.
 
 <table class="image" align="center">
 <caption align="bottom">{{ "<i>Our computer agent learning how to prepare a target state for a single qubit [7].</i>" }}</caption>
-<tr><td>{% video /movies/qubit.mp4 /movies/qubit.ogv /movies/qubit.webm 504 326 /img/RL_bloch.png %}</td></tr>
-</table>
+<tr><td>
+	<video width='504' height='326' preload='none' controls poster='/img/RL_bloch.png'>
+		<source src='/movies/qubit.mp4' />
+		<source src='/movies/qubit.ogv' />
+		<source src='/movies/qubit.webm'/>
+	</video>
+</td></tr>
+</table> 
 \\
 ***How does it Work?***---We used a modified version of Watkins online Q-learning algorithm with linear function approximation and eligibility traces <span style="color:blue">[6]</span> to teach a RL agent to find an optimal protocol sequence to prepare a quantum system in a pre-defined target state <span style="color:blue">[7]</span>. To manipulate the system, our computer agent constructs piecewise-constant protocols of duration \\(T\\) by choosing a drive protocol strength \\(h_x(t)\\) at each discrete time step \\(t\\). One can think of \\(h_x(t)\\) as a magnetic field applied to the system or, more generally --- as a control knob. In order to make the agent learn, it is given a reward for every protocol it constructs -- the fidelity \\( F_h(T)=\\lvert \\langle\\psi_\\ast \\vert \\psi(T)\\rangle
 \\rvert ^2 \\) for being in the target state after time \\(T\\) following the protocol \\(h_x(t)\\) *obeying the laws of Quantum Dynamics*. The goal of the agent is to maximize the reward \\( F_h(T)\\) in a series of attempts. Deprived of any knowledge about the underlying physical model, the agent collects information about already tried protocols, based on which it constructs new, improved protocols through a sophisticated biased sampling algorithm[RL paper]. For simplicity, consider bang-bang protocols, (see Fig.), where \\(h_x(t)\\in\\{\pm 4\\}\\), although we verified that RL also works for quasi-continuous protocols with many different protocol steps. You can learn more about our work in [this paper](https://arxiv.org/abs/1705.00565). 
@@ -33,10 +39,16 @@ To make the model untractable by perturbative analytical calculations, we add a 
 
 ***Constrained Qubit Manipulation***---To benchmark the performace of the RL agent, let us first set \\(J=0\\), so that the model decouples into a sequence of independent quantum bits, known as qubits. The movie above below shows the learning process of the RL agent for a single qubit. Notice that the protocol the agent finds after a series of attempts has a remarkable feature: without any prior knowledge about the intermediate quantum state nor its Bloch sphere representation [an effective geometric description for the quantum degrees of freedom of a single qubit], the RL agent discovers that it is advantageous to first bring the state to the equator -- which is a geodesic -- and then effectively turns off the field \\(h_x(t)\\), to enable the fastest possible precession about the \\(\hat z\\)-axis. After staying on the equator for as long as optimal, the agent rotates as fast as it can to bring the state as close as possible to the target, thus optimizing the final fidelity for the available protocol duration.
 
+
 <table class="image" align="center">
-<caption align="bottom">{{ "<i>Learning how to prepare a target state in a system of many coupled qubits [7].</i>" }}</caption>
-<tr><td>{% video /movies/many_qubits.mp4#t=0.3 /movies/many_qubits.ogv#t=0.3 /movies/many_qubits.webm#t=0.3 504 326 %}</td></tr>
-</table>
+<caption align="bottom"><i>Learning how to prepare a target state in a system of many coupled qubits [7].</i></caption>
+<tr><td>
+	<video width="504" height="326" preload="metadata" controls="">
+		<source src="/movies/many_qubits.mp4#t=0.3" />
+		<source src="/movies/many_qubits.ogv#t=0.3" />
+		<source src="/movies/many_qubits.webm#t=0.3" />
+	</video></td></tr>
+</table> 
 \\
 ***Many Coupled Qubits***---Back to the non-integrable model \\(J=1\\), it is impossible to visualise the driving protocol due to the exponentially many degrees of freedom in the problem. However, by putting the system on a closed chain and making use of translation invariance, all qubits behave in the same way on every lattice site. Hence, we can trace out all sites but one, and study the properties of the underlying reduced density matrix of the remaining qubit on the Bloch sphere. The second movie shows how our RL agent learns the physics of the many-body system. This counter-intuitive solution can also be found using optimal control algorithms, such as GRAPE <span style="color:blue">[9]</span>, and hints towards the existence of bizzare principles that govern the physics of systems away from equilibrium.
 

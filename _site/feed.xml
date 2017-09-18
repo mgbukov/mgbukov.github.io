@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Sep 2017 16:41:24 -0700</pubDate>
-    <lastBuildDate>Sun, 17 Sep 2017 16:41:24 -0700</lastBuildDate>
+    <pubDate>Sun, 17 Sep 2017 17:36:50 -0700</pubDate>
+    <lastBuildDate>Sun, 17 Sep 2017 17:36:50 -0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -87,7 +87,13 @@ prior knowledge about the quantum system, the agent learns to extract the essent
 
 &lt;table class=&quot;image&quot; align=&quot;center&quot;&gt;
 &lt;caption align=&quot;bottom&quot;&gt;&lt;i&gt;Our computer agent learning how to prepare a target state for a single qubit [7].&lt;/i&gt;&lt;/caption&gt;
-&lt;tr&gt;&lt;td&gt;&lt;video width=&quot;504&quot; height=&quot;326&quot; preload=&quot;metadata&quot; controls=&quot;&quot; poster=&quot;/img/RL_bloch.png&quot;&gt;&lt;source src=&quot;/movies/qubit.mp4&quot; type=&quot;video/mp4; codecs=&amp;quot;avc1.42E01E, mp4a.40.2&amp;quot;&quot; /&gt;&lt;source src=&quot;/movies/qubit.ogv&quot; type=&quot;video/ogg; codecs=theora, vorbis&quot; /&gt;&lt;source src=&quot;/movies/qubit.webm&quot; type=&quot;video/webm; codecs=vp8, vorbis&quot; /&gt;&lt;/video&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+	&lt;video width=&quot;504&quot; height=&quot;326&quot; preload=&quot;none&quot; controls=&quot;&quot; poster=&quot;/img/RL_bloch.png&quot;&gt;
+		&lt;source src=&quot;/movies/qubit.mp4&quot; /&gt;
+		&lt;source src=&quot;/movies/qubit.ogv&quot; /&gt;
+		&lt;source src=&quot;/movies/qubit.webm&quot; /&gt;
+	&lt;/video&gt;
+&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;&lt;em&gt;How does it Work?&lt;/em&gt;&lt;/strong&gt;—We used a modified version of Watkins online Q-learning algorithm with linear function approximation and eligibility traces &lt;span style=&quot;color:blue&quot;&gt;[6]&lt;/span&gt; to teach a RL agent to find an optimal protocol sequence to prepare a quantum system in a pre-defined target state &lt;span style=&quot;color:blue&quot;&gt;[7]&lt;/span&gt;. To manipulate the system, our computer agent constructs piecewise-constant protocols of duration \(T\) by choosing a drive protocol strength \(h_x(t)\) at each discrete time step \(t\). One can think of \(h_x(t)\) as a magnetic field applied to the system or, more generally — as a control knob. In order to make the agent learn, it is given a reward for every protocol it constructs – the fidelity \( F_h(T)=\lvert \langle\psi_\ast \vert \psi(T)\rangle
@@ -108,7 +114,12 @@ prior knowledge about the quantum system, the agent learns to extract the essent
 
 &lt;table class=&quot;image&quot; align=&quot;center&quot;&gt;
 &lt;caption align=&quot;bottom&quot;&gt;&lt;i&gt;Learning how to prepare a target state in a system of many coupled qubits [7].&lt;/i&gt;&lt;/caption&gt;
-&lt;tr&gt;&lt;td&gt;&lt;video width=&quot;504&quot; height=&quot;326&quot; preload=&quot;metadata&quot; controls=&quot;&quot;&gt;&lt;source src=&quot;/movies/many_qubits.mp4#t=0.3&quot; /&gt;&lt;source src=&quot;/movies/many_qubits.ogv#t=0.3&quot; /&gt;&lt;source src=&quot;/movies/many_qubits.webm#t=0.3&quot; /&gt;&lt;/video&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+	&lt;video width=&quot;504&quot; height=&quot;326&quot; preload=&quot;metadata&quot; controls=&quot;&quot;&gt;
+		&lt;source src=&quot;/movies/many_qubits.mp4#t=0.3&quot; /&gt;
+		&lt;source src=&quot;/movies/many_qubits.ogv#t=0.3&quot; /&gt;
+		&lt;source src=&quot;/movies/many_qubits.webm#t=0.3&quot; /&gt;
+	&lt;/video&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;&lt;em&gt;Many Coupled Qubits&lt;/em&gt;&lt;/strong&gt;—Back to the non-integrable model \(J=1\), it is impossible to visualise the driving protocol due to the exponentially many degrees of freedom in the problem. However, by putting the system on a closed chain and making use of translation invariance, all qubits behave in the same way on every lattice site. Hence, we can trace out all sites but one, and study the properties of the underlying reduced density matrix of the remaining qubit on the Bloch sphere. The second movie shows how our RL agent learns the physics of the many-body system. This counter-intuitive solution can also be found using optimal control algorithms, such as GRAPE &lt;span style=&quot;color:blue&quot;&gt;[9]&lt;/span&gt;, and hints towards the existence of bizzare principles that govern the physics of systems away from equilibrium.&lt;/p&gt;

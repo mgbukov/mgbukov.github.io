@@ -130,7 +130,13 @@ prior knowledge about the quantum system, the agent learns to extract the essent
 
 <table class="image" align="center">
 <caption align="bottom"><i>Our computer agent learning how to prepare a target state for a single qubit [7].</i></caption>
-<tr><td><video width="504" height="326" preload="metadata" controls="" poster="/img/RL_bloch.png"><source src="/movies/qubit.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" /><source src="/movies/qubit.ogv" type="video/ogg; codecs=theora, vorbis" /><source src="/movies/qubit.webm" type="video/webm; codecs=vp8, vorbis" /></video></td></tr>
+<tr><td>
+	<video width="504" height="326" preload="none" controls="" poster="/img/RL_bloch.png">
+		<source src="/movies/qubit.mp4" />
+		<source src="/movies/qubit.ogv" />
+		<source src="/movies/qubit.webm" />
+	</video>
+</td></tr>
 </table>
 <p><br />
 <strong><em>How does it Work?</em></strong>—We used a modified version of Watkins online Q-learning algorithm with linear function approximation and eligibility traces <span style="color:blue">[6]</span> to teach a RL agent to find an optimal protocol sequence to prepare a quantum system in a pre-defined target state <span style="color:blue">[7]</span>. To manipulate the system, our computer agent constructs piecewise-constant protocols of duration \(T\) by choosing a drive protocol strength \(h_x(t)\) at each discrete time step \(t\). One can think of \(h_x(t)\) as a magnetic field applied to the system or, more generally — as a control knob. In order to make the agent learn, it is given a reward for every protocol it constructs – the fidelity \( F_h(T)=\lvert \langle\psi_\ast \vert \psi(T)\rangle
@@ -151,7 +157,12 @@ prior knowledge about the quantum system, the agent learns to extract the essent
 
 <table class="image" align="center">
 <caption align="bottom"><i>Learning how to prepare a target state in a system of many coupled qubits [7].</i></caption>
-<tr><td><video width="504" height="326" preload="metadata" controls=""><source src="/movies/many_qubits.mp4#t=0.3" /><source src="/movies/many_qubits.ogv#t=0.3" /><source src="/movies/many_qubits.webm#t=0.3" /></video></td></tr>
+<tr><td>
+	<video width="504" height="326" preload="metadata" controls="">
+		<source src="/movies/many_qubits.mp4#t=0.3" />
+		<source src="/movies/many_qubits.ogv#t=0.3" />
+		<source src="/movies/many_qubits.webm#t=0.3" />
+	</video></td></tr>
 </table>
 <p><br />
 <strong><em>Many Coupled Qubits</em></strong>—Back to the non-integrable model \(J=1\), it is impossible to visualise the driving protocol due to the exponentially many degrees of freedom in the problem. However, by putting the system on a closed chain and making use of translation invariance, all qubits behave in the same way on every lattice site. Hence, we can trace out all sites but one, and study the properties of the underlying reduced density matrix of the remaining qubit on the Bloch sphere. The second movie shows how our RL agent learns the physics of the many-body system. This counter-intuitive solution can also be found using optimal control algorithms, such as GRAPE <span style="color:blue">[9]</span>, and hints towards the existence of bizzare principles that govern the physics of systems away from equilibrium.</p>
