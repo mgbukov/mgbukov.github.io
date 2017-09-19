@@ -25,11 +25,8 @@ post_type: highlight    # values [ highlight, default ]
 pagination_type: default  # values [ ops, default ]
 
 more_vert:
-  option2:
-    name: Google Scholar
-    link: https://scholar.google.com/citations?user=xRJLNpAAAAAJ&hl=en
   option3:
-    name: Publications
+    name: papers
     link: https://arxiv.org/find/cond-mat/1/au:+Bukov_M/0/1/0/all/0/1
 
 disqus: false
