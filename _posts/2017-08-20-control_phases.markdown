@@ -13,7 +13,7 @@ Phases of matter, such as liquid, solid and gas, contain valuable information ab
 By changing an ambient parameter, e.g. temperature or pressure, a substance can undergo a phase transition, rapidly switching from one phase to another. Understanding how phase transitions occur and behave is crucial for correctly predicting the properties and functionality of devices in harsh environments.
 
 <table class="image" align="right">
-<caption align="bottom">{{ "<i>Control pase diagram of quantum state preparation for two symemtrically-coupled qubits [cite].</i>" }}</caption>
+<caption align="bottom">{{ "<i>Control pase diagram of quantum state preparation for two symemtrically-coupled qubits [3].</i>" }}</caption>
 <tr><td><img src="/img/control_phasediag.png" alt="Control Phase Diagram" description="Drawing" style="width: 400px;"/></td></tr>
 </table>
 We uncovered the existence of genuine phase transitions in the process of preparing states in quantum systems. It is remarkable that the same laws, which govern the evaporation of water into gas, apply to optimal manipulation of quantum states -- a paradigm known as spontaneous symmetry breaking. Stunningly, the state preparation problem exhibits examples of prototypical equilibrium phase transitions in classical macroscopic systems: both first and second order phase transitions, a glass phase, and symmetry breaking, see Figure. These control phase transitions, present even in low-dimensional clean quantum systems, are of non-equilibrium nature. In much the same way conventional phase transitions play a quintessential role in understanding the properties of physical substances, the quantum control phase transitions carry far-reaching consequences for manipulating quantum states.
