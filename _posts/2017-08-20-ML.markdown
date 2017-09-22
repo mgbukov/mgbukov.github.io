@@ -15,7 +15,7 @@ Machine Learning (ML) ideas have recently been applied to physics to detect phas
 <table class="image" align="center">
 <caption align="bottom">{{ "<i>Our computer agent learning how to prepare a target state for a single qubit [7].</i>" }}</caption>
 <tr><td>
-	<video width='504' height='326' preload='none' controls poster='/img/RL_bloch.png'>
+	<video width='504' height='326' style="max-width:100%; max-height:100%;" preload='none' controls poster='/img/RL_bloch.png'>
 		<source src='/movies/qubit.mp4' />
 		<source src='/movies/qubit.ogv' />
 		<source src='/movies/qubit.webm'/>
