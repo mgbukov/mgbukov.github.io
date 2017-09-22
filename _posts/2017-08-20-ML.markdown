@@ -29,7 +29,7 @@ Machine Learning (ML) ideas have recently been applied to physics to detect phas
 <table class="image" align="right">
 <caption align="bottom" style="text-align:center" >{{ "<i>Bang-bang protocols found by the RL agent for the single qubit (red) and the corresponding variational protocols (blue) [7].</i>" }}
 </caption>
-<tr><td><img align="right" src="/img/RL_protocols.png" alt="Drawing" style="width: 320px;"/></td></tr>
+<tr><td><img align="right" src="/img/RL_protocols.png" alt="Drawing" style="width: 320px; max-width:100%;"/></td></tr>
 </table>
 ***Model***---To test the agent, we decided to prepare states in the transverse-field Ising chain:
 
@@ -43,7 +43,7 @@ To make the model untractable by perturbative analytical calculations, we add a 
 <table class="image" align="center">
 <caption align="bottom"><i>Learning how to prepare a target state in a system of many coupled qubits [7].</i></caption>
 <tr><td>
-	<video width="504" height="326" preload="metadata" controls="">
+	<video width="504" height="326" style="max-width:100%; max-height:100%;" preload="metadata" controls="">
 		<source src="/movies/many_qubits.mp4#t=0.3" />
 		<source src="/movies/many_qubits.ogv#t=0.3" />
 		<source src="/movies/many_qubits.webm#t=0.3" />

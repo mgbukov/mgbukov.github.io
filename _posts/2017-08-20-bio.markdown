@@ -6,7 +6,7 @@ categories: bio
 highlight: true
 author: Marin Bukov
 ---
-<img align="right" src="/img/bukov.png" alt="me" description="Drawing" style="width: 160px; max-width:100%;"/>
+<img align="right" src="/img/bukov.png" alt="mb" description="Drawing" hspace="20" style="width: 160px; max-width:100%;"/>
 ### Welcome to my homepage!
 <br>
 I am currently a Gordon and Betty Moore postdoctoral research fellow at the Physics Department, University of California (Berkeley). I study the dynamics of many-body quantum and classical systems away from equilibrium.

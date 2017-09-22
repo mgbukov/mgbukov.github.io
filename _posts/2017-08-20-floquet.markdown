@@ -15,7 +15,7 @@ I have been actively studying three main aspects of this ubiquitous field of phy
 
 <table class="image" align="right">
 <caption align="bottom">{{ "<i>Floquet realization of the Harper-Hofstadter model [4-6].</i>" }}</caption>
-<tr><td><img src="/img/floquet.jpg" alt="The Harper-Hofstadter Model" description="Drawing" style="width: 300px;"/></td></tr>
+<tr><td><img src="/img/floquet.jpg" alt="The Harper-Hofstadter Model" description="Drawing" style="width: 300px; max-width:100%;"/></td></tr>
 </table>
 * **Floquet Engineering** <span style="color:blue">[1-3]</span> encompasses the study how to ascribe novel properties to the effective Floquet Hamiltonian at high drive frequencies (compared to all other energy scales of the problem). One paradigmatic example is the [Kapitza pendulum](https://www.youtube.com/watch?v=rwGAzy0noU0). 
 
@@ -26,7 +26,7 @@ I have been actively studying three main aspects of this ubiquitous field of phy
 <table class="image" align="right">
 <caption align="bottom" style="text-align:center">{{ "<i>Adiabatic passage through a photon absorption avoided crossing in the quasienergy spectrum of the Kapitza pendulum. The ground state (red) is hybridized with a higher-energy state (blue) close to the crossing [8].</i>" }}
 </caption>
-<tr><td><img align="right" src="/img/FAPT.png" alt="Drawing" style="width: 350px;"/></td></tr>
+<tr><td><img align="right" src="/img/FAPT.png" alt="Drawing" style="width: 350px; max-width:100%;"/></td></tr>
 </table>
 * **Floquet State Preparation**. Knowing how to engineer a desired Floquet Hamiltonian appears insufficient in many
 experimental situations, since the interesting uderlying physics is not accessible in all of its eigenstates. Therefore, developing a theory for efficiently preparing Floquet states under the presence of periodic modulation can provide a bridge between many theoretical studies and their experimental ralisation. 
@@ -38,7 +38,7 @@ experimental situations, since the interesting uderlying physics is not accessib
 <table class="image" align="right">
 <caption align="bottom" style="text-align:center" >{{ "<i>A pair of many-body Floquet resonances resolved with the infinite-frequency Hamiltonian [13].</i>" }}
 </caption>
-<tr><td><img align="right" src="/img/floquet_res.png" alt="Drawing" style="width: 220px;"/></td></tr>
+<tr><td><img align="right" src="/img/floquet_res.png" alt="Drawing" style="width: 220px; max-width:100%;"/></td></tr>
 </table>
 * **Floquet (Pre-)Thermalization**. Assuming we have resolved the issues related to preparing a particular desired Floquet state, the interesting physics it hides can still easily remain elusive if the system absorbs a lot of energy from the perioic drive. Intuitively, one may expect that the periodic modulation pumps energy into the system, and ultimately heats it up to a featureless state. Perhaps surprisingly, at large drive frequencies, energy absorption has been found to be at least exponentially suppressed with the drive frequency <span style="color:blue">[9-10]</span>. This opens up a large window where the system enters a pre-thermal Floquet steady state, captured by the physics of the effective Hamiltonian. 
 
