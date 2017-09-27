@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-permalink: ../CV/
+permalink: /CV/
 ---
 
 ###### __Current occupation__
