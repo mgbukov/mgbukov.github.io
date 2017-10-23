@@ -22,7 +22,7 @@ permalink: ../CV/
 
 ###### __Education__
 
-__*Ph.D., Physics (2017)*__, Boston University, USA
+__*Ph.D., Physics (2016-17)*__, Boston University, USA
 * *dissertation:* Floquet Engineering in Periodically Driven Closed Quantum Systems: from Dynamical Localisation to Ultracold Topological Matter
 * *advisor:* Anatoli Polkovnikov
 
