@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Reinforcement Learning in Phases of Quantum Control
+title: Reinforcement Learning in Different Phases of Quantum Control
 permalink: ../RL_movies/
 ---
 
-On this page, you can find the supplementary videos to the paper [Reinforcement Learning in Phases of Quantum Control](https://arxiv.org/abs/1705.00565) <span style="color:blue">[1]</span>. 
+On this page, you can find the supplementary videos to the paper [Reinforcement Learning in Different Phases of Quantum Control](https://arxiv.org/abs/1705.00565) <span style="color:blue">[1]</span>. 
 
-For the single qubit, we present three movies showing protocols found by the Reinforcement Learning (RL) agent (Movies 1-3) and three moves for the one-parameter variational protocols (Movies 4-6) for ramp durations $T=0.5, 1.0, 3.0$, respectively. The target state on the Bloch sphere is shown in red, while the instantaneous state - in green. The protocol time step size is $\\delta t=0.5$. 
+For the single qubit, we present three movies showing protocols found by the Reinforcement Learning (RL) agent (Movies 1-3) and three moves for the one-parameter variational protocols (Movies 4-6) for ramp durations $T=0.5, 1.0, 3.0$, respectively. The target state on the Bloch sphere is shown in red, while the instantaneous state - in green. The protocol time step size is $\\delta t=0.05$. 
 
 The final two movies show the learning dynamics in for a single qubit for $T= 2.4$ (Movie 7), and a ten coupled qubit system for $T=4.0$ (Movie 8).
 
