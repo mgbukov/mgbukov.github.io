@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Spontaneous Symmetry Breaking in a Glassy Quantum Control Landscape
+title: Broken Symmetry in a Correlated Quantum Control Landscape
 permalink: ../2B_movies/
 ---
 
-On this page, you can find the supplementary videos to the paper [Spontaneous Symmetry Breaking in a Glassy Quantum Control Landscape](https://arxiv.org/abs/...) <span style="color:blue">[1]</span>. 
+On this page, you can find the supplementary videos to the paper [Broken Symmetry in a Correlated Quantum Control Landscape](https://arxiv.org/abs/...) <span style="color:blue">[1]</span>. 
 
 For the symmetrically-coupled two-qubit problem, we present four movies showing protocols in the symmetry-broken glassy phase (green in Fig. 1 from [paper]()) for the protocol duration $T=2.0$. The movies come in symemtry-related pairs a-b, and show the existence of exactly degenerate driving protocols close to optimality. 
 
