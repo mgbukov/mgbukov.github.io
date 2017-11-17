@@ -22,24 +22,24 @@ permalink: /CV/
 
 ###### __Education__
 
-__*Ph.D., Physics (2017)*__, Boston University, USA
-* *dissertation:* Floquet Engineering in Periodically Driven Closed Quantum Systems: from Dynamical Localisation to Ultracold Topological Matter
+__*Ph.D., Physics (2016-17)*__, Boston University, USA
+* *dissertation:* [Floquet Engineering in Periodically Driven Closed Quantum Systems: from Dynamical Localisation to Ultracold Topological Matter]({{ site.baseurl }}{% link files/Floquet_thesis.pdf %})
 * *advisor:* Anatoli Polkovnikov
 
 __*M.Sc., Theoretical and Mathematical Physics (2013)*__, Ludwig-Maximilians-Universität and Technische Universität München, Germany
-* *thesis:* Bose-Fermi Mixtures: a Mean-Field Study
+* *thesis:* [Bose-Fermi Mixtures: a Mean-Field Study](https://epub.ub.uni-muenchen.de/29268/)
 * *first advisor:* Lode Pollet
 * *second advisor:* Immanuel Bloch
 
 __*B.Sc., Mathematics (2011)*__, Ludwig-Maximilians-Universität München, Germany
-* *thesis:* Rigorous Approach to Bose-Einstein Condensation
+* *thesis:* [Rigorous Approach to Bose-Einstein Condensation](http://www.mathematik.uni-muenchen.de/~lerdos/Stud/bukov.pdf)
 * *advisor:* László Erdős
 
 __*B.Sc., Physics (2011)*__, Ludwig-Maximilians-Universität München, Germany
 * *thesis:* Periodically Driven Luttinger Luquids
 * *advisor:* Stefan Kehrein
 
-__*Abitur*__ (Bildungsinländer), __*Matura (2008)*__ First German High School (Deutsche Abteilung, Galabov Gymnasium), Sofia, Bulgaria
+__*Abitur*__ (Bildungsinländer), __*Matura (2008)*__, First German High School (Deutsche Abteilung, Galabov Gymnasium), Sofia, Bulgaria
 
 ###### __Awards__
 
