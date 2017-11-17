@@ -9,14 +9,13 @@ image: /img/quspin.png
 ---
 The ability to simulate quantum systems offers invaluable opportunities for building up intuition and understanding about the bizzare world of quantum mechanics. We developed ***QuSpin*** -- an __open source__ Python package for exact diagonalisation and dynamics of quantum many-body systems.
 
+Check out QuSpin's [***Documentation***](http://weinbe58.github.io/QuSpin/index.html) for guidance how to install and use tha package, as well as the project's [*Github repository*](https://github.com/weinbe58/QuSpin#quspin) for more information.
+
 Understanding the physics of many-body quantum condensed matter systems often involves a great deal of numerical simulations, be it to gain intuition about the complicated problem of interest, or because they do not admit an analytical solution which can be expressed in a closed form. [QuSpin](https://scipost.org/10.21468/SciPostPhys.2.1.003) is an ED-based package which wraps some of the functionality of Python's Numpy and Scipy libraries, to efficiently allow for the user-friendly simulation of quantum many-body systems <span style="color:blue">[1,2]</span>.
 
 Being scientists, it is particularly useful to have a reliable toolbox available at our disposal which allows us to quickly simulate and study these and related nonequilibrium problems. As such, QuSpin offers easy access to performing numerical simulations, which can facilitate the development and inspiration of new ideas and the discovery of novel phenomena, eliminating the cost of spending time to develop a reliable code. Besides theorists, QuSpin will hopefully even prove valuable to experimentalists working on problems containing dynamical setups, as it can help students and researchers focus on perfecting the experiment, rather than worry about writing the supporting simulation code. 
 
 With the computational processing power growing higher than ever before, the role played by simulations for theoretical research becomes increasingly more important too. It can, therefore, be expected that in the near future quantum simulations become an integral part of the standard physics university curriculum, and having easily accessible toolboxes, such as QuSpin, is one of the required prerequisites for this anticipated change.
-
-Check out QuSpin's [***Documentation***](http://weinbe58.github.io/QuSpin/index.html) for guidance how to install and use tha package, as well as the project's [*Github repository*](https://github.com/weinbe58/QuSpin#quspin) for more information.
-
 
 
 The following snippet of code shows how one can employ QuSpin to study the thermalising dynamics of the following peoriodically-driven closed spin chain
@@ -25,7 +24,7 @@ $$ i \partial_t|\psi(t)\rangle = H(t)|\psi(t)\rangle,\qquad |\psi(0)\rangle=|\ma
 
 $$ H(t) = \sum_{j=0}^{L-1} \left( JS^z_{j+1}S^z_j + hS^z_j + g\cos(\Omega t)S^x_j \right) $$
 
-in the zero-momentum sector (`kblock=0`) of positive parity (`pblock=1`).
+in the zero-momentum sector (`kblock=0`) of positive parity (`pblock=1`). Click [here](http://weinbe58.github.io/QuSpin/Examples.html) for more examples.
 
 {% highlight python %}
 from quspin.operators import hamiltonian # Hamiltonians and operators
