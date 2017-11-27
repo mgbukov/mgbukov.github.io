@@ -6,12 +6,12 @@ permalink: /CV/
 
 ###### __Current occupation__
 
-* Gordon and Betty Moore postdoctoral fellow, Physics Department, University of California, Berkeley.
+* Gordon and Betty Moore postdoctoral fellow, Physics Department, University of California, Berkeley
 
 ###### __Research Interests__
 
 *Condensed Matter Physics, Ultracold Atoms, Quantum Optics*
-* Quantum and Classical dynamics and thermalisation in out-of-equilibrium systems 
+* Quantum and classical dynamics and thermalisation in out-of-equilibrium systems 
 * Phase transitions and critical phenomena
 * Interplay between Condensed Matter Systems and Ultracold Atomic Gases
 
@@ -36,10 +36,10 @@ __*B.Sc., Mathematics (2011)*__, Ludwig-Maximilians-Universität München, Germa
 * *advisor:* László Erdős
 
 __*B.Sc., Physics (2011)*__, Ludwig-Maximilians-Universität München, Germany
-* *thesis:* Periodically Driven Luttinger Luquids
+* *thesis:* Periodically Driven Luttinger Liquids
 * *advisor:* Stefan Kehrein
 
-__*Abitur*__ (Bildungsinländer), __*Matura (2008)*__, First German High School (Deutsche Abteilung, Galabov Gymnasium), Sofia, Bulgaria
+__*Abitur*__ (Bildungsinländer, __*2008*__), __*Matura (2008)*__, First German High School (Deutsche Abteilung, Galabov Gymnasium), Sofia, Bulgaria
 
 ###### __Awards__
 
@@ -47,8 +47,7 @@ __*Abitur*__ (Bildungsinländer), __*Matura (2008)*__, First German High School 
 Boston University (2017).
 * __"Gertrude and Maurice Goldhaber Prize"__ in recognition of "outstanding achievement by a first-year graduate student", Department of Physics,
 Boston University (2015).
-* __"DAAD Prize"__ for foreign students at German universities for "exceptional academic ability  and particular concern for social and intercultural
-issues", Ludwig-Maximilians-Univerität, Munich (2012).
+* __"DAAD Prize"__ for "the outstanding achievement of a foreign student at German universities", Ludwig-Maximilians-Univerität, Munich (2012).
 * __Certificate__ of "outstanding performance in nationwide competitions", First German High School, Sofia (2008). 
 
 ###### __Fellowships/Scholarships__
