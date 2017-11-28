@@ -59,7 +59,7 @@ To make the model untractable by perturbative analytical calculations, we add a 
 <a href="https://www.nature.com/nature/journal/v518/n7540/full/nature14236.html" style="color: #0000cd">[4] V. Mnih *et al.*, *Nature* **518**, 529 (2015), letter.</a>\\
 <a href="https://www.nature.com/nature/journal/v518/n7540/full/nature14236.html" style="color: #0000cd">[5] D. Silver,*et al.*, *Nature* **529**, 484 (2016), article.</a>\\
 <a href="http://people.inf.elte.hu/lorincz/Files/RL_2006/SuttonBook.pdf" style="color: #0000cd">[6] R. S. Sutton and A. G. Barto, *Reinforcement Learning: An Introduction* (MIT Press, Cambridge, MA, 2017).</a>\\
-<a href="https://arxiv.org/abs/1705.00565" style="color: #0000cd">[7] **M.B.**, A.G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, P. Mehta, *arXiv: 1705.00565* (2017).</a>\\
+<a href="https://arxiv.org/abs/1705.00565" style="color: #0000cd">[7] **M.B.**, A.G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, and P. Mehta, *arXiv: 1705.00565* (2017).</a>\\
 <a href="" style="color: #0000cd">[8] A.G.R. Day, **M.B.**, P. Weinberg, A. Polkovnikov, P. Mehta, and D. Sels, *in preparation* (2017).</a>\\
 <a href="" style="color: #0000cd">[9] N. Khaneja, T. Reiss, C. Kehlet, T. Schulte-Herbrüggen, and S. J. Glaser, *Journal of Magnetic Resonance* **172**, 296 (2005).</a>
 

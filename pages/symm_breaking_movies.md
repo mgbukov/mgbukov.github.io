@@ -16,6 +16,6 @@ In all movies, we trace one one qubit and plot the reduced density matrix of the
 
 *References*:\\
 <a href="https://arxiv.org/abs/1711.09109" style="color: #0000cd">[1] **M.B.**, A.G.R. Day, P. Weinberg, A. Polkovnikov, P. Mehta, and D. Sels, *arXiv: 1711.09109* (2017).</a>\\
-<a href="https://arxiv.org/abs/1705.00565" style="color: #0000cd">[2] **M.B.**, A.G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, P. Mehta, *arXiv: 1705.00565* (2017).</a>
+<a href="https://arxiv.org/abs/1705.00565" style="color: #0000cd">[2] **M.B.**, A.G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, and P. Mehta, *arXiv: 1705.00565* (2017).</a>
 
 Copyright © 2017 Marin Bukov
