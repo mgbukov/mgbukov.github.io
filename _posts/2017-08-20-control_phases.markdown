@@ -38,6 +38,6 @@ Lowering the total protocol duration $T$ further, we encounter yet another secon
 *References*:\\
 <a href="" style="color: #0000cd">[1] A.G.R. Day, **M.B**, P. Weinberg, A. Polkovnikov, P. Mehta, and D. Sels, *in preparation* (2017).</a>\\
 <a href="https://arxiv.org/abs/1705.00565" style="color: #0000cd">[2] **M.B.**, A.G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, P. Mehta, *arXiv: 1705.00565* (2017).</a>\\
-<a href="" style="color: #0000cd">[3] **M.B.**, A.G.R. Day, P. Weinberg, P. Mehta, A. Polkovnikov, and D. Sels, *in preparation* (2017).</a>
+<a href="https://arxiv.org/abs/1711.09109" style="color: #0000cd">[3] **M.B.**, A.G.R. Day, P. Weinberg, A. Polkovnikov, P. Mehta, and D. Sels, *arXiv: 1711.09109* (2017).</a>
 
 Copyright © 2017 Marin Bukov
