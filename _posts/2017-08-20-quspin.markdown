@@ -24,7 +24,7 @@ $$ i \partial_t|\psi(t)\rangle = H(t)|\psi(t)\rangle,\qquad |\psi(0)\rangle=|\ma
 
 $$ H(t) = \sum_{j=0}^{L-1} \left( JS^z_{j+1}S^z_j + hS^z_j + g\cos(\Omega t)S^x_j \right) $$
 
-in the zero-momentum sector (`kblock=0`) of positive parity (`pblock=1`). Click [here](http://weinbe58.github.io/QuSpin/Examples.html) for more examples.
+in the zero-momentum sector (`kblock=0`) of positive parity (`pblock=1`). Click [here for more examples](http://weinbe58.github.io/QuSpin/Examples.html).
 
 {% highlight python %}
 from quspin.operators import hamiltonian # Hamiltonians and operators
@@ -63,7 +63,7 @@ psi_t=H.evolve(psi_i,t.i,t.vals)
 {% endhighlight %} 
 
 *References*:\\
-<a href="https://scipost.org/10.21468/SciPostPhys.2.1.003" style="color: #0000cd">[1] P. Weinberg and **M.B.**, *SciPost Phys.* **2**, 003 (2017).</a>
-
+<a href="https://scipost.org/10.21468/SciPostPhys.2.1.003" style="color: #0000cd">[1] P. Weinberg and **M.B.**, *SciPost Phys.* **2**, 003 (2017).</a>\\
+<a href="https://arxiv.org/abs/1804.06782" style="color: #0000cd">[2] P. Weinberg and **M.B.**, *arXiv: 1804.06782* (2018).</a>
 
 Copyright © 2017 Marin Bukov

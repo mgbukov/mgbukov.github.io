@@ -27,7 +27,7 @@ pagination_type: default  # values [ ops, default ]
 more_vert:
   option3:
     name: scientific papers
-    link: https://arxiv.org/find/cond-mat/1/au:+Bukov_M/0/1/0/all/0/1
+    link: https://arxiv.org/search/?query=Marin+Bukov&searchtype=author&order=-announced_date_first&size=50
 
 disqus: false
 #disqus_shortname: 'gdgmanagua'
