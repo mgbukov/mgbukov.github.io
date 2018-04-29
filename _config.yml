@@ -27,7 +27,7 @@ pagination_type: default  # values [ ops, default ]
 more_vert:
   option3:
     name: scientific papers
-    link: https://arxiv.org/search/?query=Marin+Bukov&searchtype=author&order=-announced_date_first&size=50
+    link: https://arxiv.org/search/?query=%22Bukov%22&searchtype=author&order=-announced_date_first&size=50
 
 disqus: false
 #disqus_shortname: 'gdgmanagua'
