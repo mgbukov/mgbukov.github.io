@@ -22,8 +22,8 @@ permalink: /CV/
 
 ###### __Education__
 
-__*Ph.D., Physics (2016-17)*__, Boston University, USA
-* *dissertation:* [Floquet Engineering in Periodically Driven Closed Quantum Systems: from Dynamical Localisation to Ultracold Topological Matter]({{ site.baseurl }}{% link files/Floquet_thesis.pdf %})
+__*Ph.D., Physics (2016/17)*__, Boston University, USA
+* *dissertation:* [Floquet Engineering in Periodically Driven Closed Quantum Systems: from Dynamical Localisation to Ultracold Topological Matter]({{site.baseurl}}../files/Floquet_thesis.pdf)
 * *advisor:* Anatoli Polkovnikov
 
 __*M.Sc., Theoretical and Mathematical Physics (2013)*__, Ludwig-Maximilians-Universität and Technische Universität München, Germany
