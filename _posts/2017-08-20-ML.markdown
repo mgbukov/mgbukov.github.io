@@ -10,9 +10,7 @@ image: /img/RL_bloch.png
 A ***Reinforcement Learning*** agent learns to ***Prepare Quantum States*** in a non-integrable Ising chain. With no
 prior knowledge about the quantum system, the agent learns to extract the essential features of the optimal preparation protocol.
 
-Machine Learning (ML) ideas have recently been applied to physics to detect phase transitions <span style="color:blue">[1]</span>, and compress quantum mechanical wavefunctions <span style="color:blue">[2]</span>. Check out this [***review paper***](https://arxiv.org/abs/1803.08823) we wrote which introduces Machine Learning using concepts from Statistical Mechanics. It comes with a number of [***Jupyter notebooks***](http://physics.bu.edu/~pankajm/MLnotebooks.html) to help you understand the main concepts.
-
-I have recently become interested in developing and applying Reinforcement Learning (RL) algorithms to study quantum dynamics. RL is a subfield of ML where a computer agent is taught to master a specific task by performing a series of actions in order to maximize a reward function, as a result if interaction with its environment. RL was used in the 90's to create a computer agent to beat the world's best backgammon players <span style="color:blue">[3]</span>. Recently, Google DeepMind succeeded in teaching a RL agent to play the video games Atari and Go <span style="color:blue">[4,5]</span>. Inspired by this success, we decided to investigate what insights in physics can be gained from such an approach.
+Machine Learning (ML) ideas have recently been applied to physics to detect phase transitions <span style="color:blue">[1]</span>, and compress quantum mechanical wavefunctions <span style="color:blue">[2]</span>. I have recently become interested in developing and applying Reinforcement Learning (RL) algorithms to study quantum dynamics. RL is a subfield of ML where a computer agent is taught to master a specific task by performing a series of actions in order to maximize a reward function, as a result if interaction with its environment. RL was used in the 90's to create a computer agent to beat the world's best backgammon players <span style="color:blue">[3]</span>. Recently, Google DeepMind succeeded in teaching a RL agent to play the video games Atari and Go <span style="color:blue">[4,5]</span>. Inspired by this success, we decided to investigate what insights in physics can be gained from such an approach.
 
 <table class="image" align="center">
 <caption align="bottom">{{ "<i>Our computer agent learning how to prepare a target state for a single qubit [7].</i>" }}</caption>
@@ -61,7 +59,7 @@ To make the model untractable by perturbative analytical calculations, we add a 
 <a href="https://www.nature.com/nature/journal/v518/n7540/full/nature14236.html" style="color: #0000cd">[4] V. Mnih *et al.*, *Nature* **518**, 529 (2015), letter.</a>\\
 <a href="https://www.nature.com/nature/journal/v518/n7540/full/nature14236.html" style="color: #0000cd">[5] D. Silver,*et al.*, *Nature* **529**, 484 (2016), article.</a>\\
 <a href="http://people.inf.elte.hu/lorincz/Files/RL_2006/SuttonBook.pdf" style="color: #0000cd">[6] R. S. Sutton and A. G. Barto, *Reinforcement Learning: An Introduction* (MIT Press, Cambridge, MA, 2017).</a>\\
-<a href="https://arxiv.org/abs/1705.00565" style="color: #0000cd">[7] **M.B.**, A.G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, and P. Mehta, *arXiv: 1705.00565* (2017).</a>\\
+<a href="https://arxiv.org/abs/1705.00565" style="color: #0000cd">[7] **M.B.**, A. G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, and P. Mehta, *Phys. Rev. X* **8** 031086 (2018).</a>\\
 <a href="https://arxiv.org/abs/1803.10856" style="color: #0000cd">[8] A. G.R. Day, **M.B.**, P. Weinberg, P. Mehta, and D. Sels, *arXiv: 1803.10856* (2018).</a>\\
 <a href="" style="color: #0000cd">[9] N. Khaneja, T. Reiss, C. Kehlet, T. Schulte-Herbrüggen, and S. J. Glaser, *Journal of Magnetic Resonance* **172**, 296 (2005).</a>
 

@@ -1,0 +1,5 @@
+ffmpeg -i movie-2.mp4 -vf scale=800:-1 -c:v libx264 -crf 18 -preset veryslow -c:a copy output2.mp4
+
+ffmpeg -i movie-3.mp4 -c:v libtheora -q:v 7 -c:a libvorbis -q:a 4 movie-3.ogv
+
+ffmpeg -i movie-3.mp4 -vcodec libvpx -acodec libvorbis movie-3.webm
