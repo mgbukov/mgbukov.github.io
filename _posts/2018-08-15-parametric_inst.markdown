@@ -11,6 +11,7 @@ Floquet engineering is an established technique from the quantum simulation tool
 
 <figure align="center">
 <tr><td><img src="/img/param_inst.png" alt="shaken bosons" description="Drawing" style="width: 400px; max-width:400%;"/></td></tr>
+<figcaption><i>Superfluid bosons (red) in optical lattices (grey) heat up when exposed to periodic modulation. Image courtesy by N. Goldman.</i></figcaption>
 </figure>
 
 We consider a system of ultracold weakly-interacting bosons in an optical lattice [grey "egg carton"-like structure in Fig above]. The bosons can "hop" between neighboring lattice sites (this phenomenon is caused by quantum mechanical tunneling, but you can think of it as hopping). For every two bosons occupying the same lattice site, there is an additional interaction energy cost. If the (density-renormalized) interaction $g$ is strong compared to the hopping $J$, and the number of bosons is commensurate with the number of lattice sites, the bosons are localized in the lattice sites and remain frozen (cannot hop) - this is known as a Mott insulator state. Conversely, whenever the "hopping rate" $J$ is much larger than the interaction $g$, kinetic energy dominates and the individual bosons lose their identity: they behave as a macroscopic quantum fluid, known as a superfluid [red blob in the Fig above]. 
