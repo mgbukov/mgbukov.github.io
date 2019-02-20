@@ -36,7 +36,7 @@ Surprisingly, the glassy phase of the system itself consists of two other phases
 Lowering the total protocol duration $T$ further, we encounter yet another second-order phase transition at $T=T_c\approx 0.38$, when the various minima of the infidelity landscape coalesce into a single global minimum. This suggests that the landscape in this *overconstrained* phase (red) is convex, and optimisation is easy again, even though the optimal fidelities one can reach are pretty poor due to the short protocol duration. 
 
 *References*:\\
-<a href="https://arxiv.org/abs/1803.10856" style="color: #0000cd">[1] A. G.R. Day, **M.B.**, P. Weinberg, P. Mehta, and D. Sels, *arXiv: 1803.10856* (2018).</a>\\
+<a href="https://arxiv.org/abs/1803.10856" style="color: #0000cd">[1] A. G.R. Day, **M.B.**, P. Weinberg, P. Mehta, and D. Sels, *Phys. Rev. Lett.* **122** 020601 (2019).</a>\\
 <a href="https://arxiv.org/abs/1705.00565" style="color: #0000cd">[2] **M.B.**, A. G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, P. Mehta, *Phys. Rev. X* **8** 031086 (2018).</a>\\
 <a href="https://arxiv.org/abs/1711.09109" style="color: #0000cd">[3] **M.B.**, A. G.R. Day, P. Weinberg, A. Polkovnikov, P. Mehta, and D. Sels, *Phys. Rev. A* __97__, 052114 (2018).</a>
 

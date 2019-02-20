@@ -27,7 +27,7 @@ __*Ph.D., Physics (2016/17)*__, Boston University, USA
 * *advisor:* Anatoli Polkovnikov
 
 __*M.Sc., Theoretical and Mathematical Physics (2013)*__, Ludwig-Maximilians-Universität and Technische Universität München, Germany
-* *thesis:* [Bose-Fermi Mixtures: a Mean-Field Study](https://epub.ub.uni-muenchen.de/29268/)
+* *thesis:* [Bose-Fermi Mixtures: a Mean-Field Study](https://epub.ub.uni-muenchen.de/29268/) [publication: [Phys. Rev. B 89, 094502 (2014)](https://arxiv.org/abs/1311.7148)]
 * *first advisor:* Lode Pollet
 * *second advisor:* Immanuel Bloch
 
@@ -36,10 +36,12 @@ __*B.Sc., Mathematics (2011)*__, Ludwig-Maximilians-Universität München, Germa
 * *advisor:* László Erdős
 
 __*B.Sc., Physics (2011)*__, Ludwig-Maximilians-Universität München, Germany
-* *thesis:* Periodically Driven Luttinger Liquids
+* *thesis:* Periodically Driven Luttinger Liquids [publication: [Phys. Rev. B 86, 054304 (2012)](https://arxiv.org/abs/1206.2504)]
 * *advisor:* Stefan Kehrein
 
-__*Abitur*__ (Bildungsinländer, __*2008*__), __*Matura (2008)*__, First German High School (Deutsche Abteilung, Galabov Gymnasium), Sofia, Bulgaria
+__*Abitur (2008)*__ [allgemeine Hochschulreife], Bildungsinländer, Deutsche Abteilung, Galabov Gymnasium Sofia, Bulgaria\\
+__*Matura (2008)*__ [general university entrance examinations], First German High School Sofia, Bulgaria
+
 
 ###### __Awards__
 

@@ -67,7 +67,7 @@ For more details on the RL learning procedure, check out [***the full paper***](
 
 
 *References*:\\
-<a href="https://arxiv.org/abs/1808.08910" style="color: #0000cd">[1] **M.B.**, *arXiv: 1808.08910* (2018).</a>\\
+<a href="https://arxiv.org/abs/1808.08910" style="color: #0000cd">[1] **M.B.**, *Phys. Rev. B* **98** 224305 (2018).</a>\\
 <a style="color: #0000cd">[2] P. L. Kapitza, *Soviet Phys. JETP*, **21** 588–592, (1951).</a>\\
 <a href="http://people.inf.elte.hu/lorincz/Files/RL_2006/SuttonBook.pdf" style="color: #0000cd">[3] R. S. Sutton and A. G. Barto, *Reinforcement Learning: An Introduction* (MIT Press, Cambridge, MA, 2017).</a>\\
 <a href="https://arxiv.org/abs/1705.00565" style="color: #0000cd">[4] **M.B.**, A. G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, and P. Mehta, *Phys. Rev. X* **8** 031086 (2018).</a>
