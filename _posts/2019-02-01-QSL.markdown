@@ -25,7 +25,7 @@ We also investigate and analyze the effects of such constraints on the quantum s
 You can find all details in [***our paper***](https://arxiv.org/abs/1804.05399).
 
 *References*:\\
-<a href="https://arxiv.org/abs/1804.05399" style="color: #0000cd">[1] **M.B.**, D. Sels, and A. Polkovnikov, *Phys. Rev. X* (2019).</a>\\
+<a href="https://arxiv.org/abs/1804.05399" style="color: #0000cd">[1] **M.B.**, D. Sels, and A. Polkovnikov, *Phys. Rev. X* **9** 011034 (2019).</a>\\
 <a href="https://arxiv.org/abs/1507.05848" style="color: #0000cd">[2] D. P. Pires, M. Cianciaruso, L. C. Céleri, G. Adesso, and D. O. Soares-Pinto, *Phys. Rev. X* **6** 021031 (2016).</a> \\
 <a href="https://arxiv.org/abs/1401.1184" style="color: #0000cd">[3] S. Deffner, C. Jarzynski, and A. del Campo, *Phys. Rev. X* **4** 021013 (2014).</a>\\
 <a href="https://arxiv.org/abs/1609.08889" style="color: #0000cd">[4] K. Funo, J.-N. Zhang, C. Chatou, K. Kim, M. Ueda, and A. del Campo, *Phys. Rev. Lett.* **118** 100602 (2017).</a>\\
