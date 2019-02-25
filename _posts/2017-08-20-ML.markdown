@@ -2,7 +2,7 @@
 layout: post
 title: "Reinforcement Learning Quantum State Preparation" 
 index: Reinforcement Learning Quantum State Preparation
-date:   2017-04-01 12:00:00
+date:   2017-05-01 12:00:00
 categories: ML
 author: Marin Bukov
 image: /img/RL_bloch.png

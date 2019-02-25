@@ -2,7 +2,7 @@
 layout: post
 title:  "Phase Transitions of Quantum Control" 
 index: Phase Transitions of Quantum Control
-date:   2017-08-20 13:00:00
+date:   2017-03-20 13:00:00
 categories: control_phases
 author: Marin Bukov
 image: /img/control_phases.png
