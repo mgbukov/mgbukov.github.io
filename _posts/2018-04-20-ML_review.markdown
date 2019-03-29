@@ -16,14 +16,15 @@ Machine Learning, data science, and statistics are fields that describe how to l
 
 The review paper comes with a number of [***Jupyter notebooks***](http://physics.bu.edu/~pankajm/MLnotebooks.html) with ready python code to help you understand the main concepts, and how to implement them using modern ML packages. They are a great starting point for both numerical experiments and research, and provide the activation energy to get you started on this exciting journey :) 
 
-If you're interested, check out [***our review paper***](https://arxiv.org/abs/1803.08823) which introduces Machine Learning using concepts from Statistical Mechanics <span style="color:blue">[1]</span>. Look up also this complementary [***ML review***](https://arxiv.org/abs/1709.02779) by V. Dunjko and H. Briegel with focus on quantum physics <span style="color:blue">[2]</span>. Florian Marquardt has a lot of [***useful material***](https://machine-learning-for-physicists.org/) online.  
+If you're interested, check out [***our review paper***](https://arxiv.org/abs/1803.08823) which introduces Machine Learning using concepts from Statistical Mechanics <span style="color:blue">[1]</span>. Look up also this complementary [***ML review***](https://arxiv.org/abs/1709.02779) by V. Dunjko and H. Briegel with focus on quantum physics <span style="color:blue">[2]</span>, and the [***more recent review***](https://arxiv.org/abs/1903.10563) by G. Carleo et al. [3]. Florian Marquardt also has a lot of [***useful material***](https://machine-learning-for-physicists.org/) online.  
 
 
 
 
 *References*:\\
-<a href="https://arxiv.org/abs/1803.08823" style="color: #0000cd">[1] P. Mehta, **M.B.**, C-H Wang, A. G.R. Day, C. Richardson, C. K. Fisher and D. J. Schwab, *arXiv: 1803.08823* (2018).</a>\\
-<a href="https://arxiv.org/abs/1709.02779" style="color: #0000cd">[2] V. Dunjko and H. Briegel, *Reports on Progress in Physics* **81** 7 074001 (2018).</a>
+<a href="https://arxiv.org/abs/1803.08823" style="color: #0000cd">[1] P. Mehta, **M.B.**, C-H Wang, A. G.R. Day, C. Richardson, C. K. Fisher and D. J. Schwab, *Physics Reports* (2019).</a>\\
+<a href="https://arxiv.org/abs/1709.02779" style="color: #0000cd">[2] V. Dunjko and H. Briegel, *Reports on Progress in Physics* **81** 7 074001 (2018).\\
+<a href="https://arxiv.org/abs/1903.10563" style="color: #0000cd">[3] G. Carleo, I. Cirac, K. Cranmer, L. Daudet, M. Schuld, N. Tishby, L. Vogt-Maranto, and L. Zdeborová, *arXiv:1903.10563* (2019).</a>
 
 
 

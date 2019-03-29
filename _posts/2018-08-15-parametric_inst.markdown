@@ -75,7 +75,7 @@ I. Bloch, A. Eckardt, and U. Schneider, *Phys. Rev. Lett.* 119, 200402 (2017).</
 <a href="https://arxiv.org/abs/1610.02972" style="color: #0000cd">[8] S. Lellouch, **M.B.**, E. Demler, and N. Goldman, *Phys. Rev. X*, 7, 021015 (2017).</a>\\
 <a href="https://arxiv.org/abs/1711.08832" style="color: #0000cd">[9] S. Lellouch and N. Goldman, *Quantum Science and Technology*, 3, 024011 (2018).</a>\\
 <a href="https://arxiv.org/abs/1808.07462" style="color: #0000cd">[10] J. Näger, K. Wintersperger, **M.B.**, S. Lellouch, E. Demler, U. Schneider, I. Bloch, N. Goldman, and M. Aidelsburger, *arXiv:1808.07462* (2018).</a>\\
-<a href="https://arxiv.org/abs/1808.07637" style="color: #0000cd">[11] T. Boulier, J. Maslek, **M.B.**, C. Bracamontes, E. Magnan, S. Lellouch, E. Demler, N. Goldman, J. V. Porto, *arXiv:1808.07637* (2018).</a>
+<a href="https://arxiv.org/abs/1808.07637" style="color: #0000cd">[11] T. Boulier, J. Maslek, **M.B.**, C. Bracamontes, E. Magnan, S. Lellouch, E. Demler, N. Goldman, J. V. Porto, *Phys. Rev. X*, 9, 011047 (2019).</a>
 
 
 
