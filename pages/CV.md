@@ -1,8 +1,11 @@
 ---
 layout: page
-title: CV
+title: [CV]
 permalink: /CV/
 ---
+
+A [pdf version of my extended CV]({{site.baseurl}}../files/cv_bukov.pdf) as of Sept 1, 2019. 
+
 
 ###### __Current occupation__
 
@@ -59,7 +62,6 @@ Boston University (2015).
 * __"Stipendium aus Mitteln des Bayerischen Staates"__: Bavarian State Ministry of Sciences, Research and the Arts, Germany (2010-2013).
 
 * __"1000 Stipendii"__ fellow, Communitas Foundation, Bulgaria (2007-2008).
-
 
 
 Copyright © 2017 Marin Bukov

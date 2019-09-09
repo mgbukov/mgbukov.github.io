@@ -63,7 +63,7 @@ psi_t=H.evolve(psi_i,t.i,t.vals)
 {% endhighlight %} 
 
 *References*:\\
-<a href="https://scipost.org/10.21468/SciPostPhys.2.1.003" style="color: #0000cd">[1] P. Weinberg and **M.B.**, *SciPost Phys.* **2**, 003 (2017).</a>\\
-<a href="https://arxiv.org/abs/1804.06782" style="color: #0000cd">[2] P. Weinberg and **M.B.**, *arXiv: 1804.06782* (2018).</a>
+<a href="https://scipost.org/SciPostPhys.2.1.003" style="color: #0000cd">[1] P. Weinberg and **M.B.**, *SciPost Phys.* **2**, 003 (2017).</a>\\
+<a href="https://scipost.org/SciPostPhys.7.2.020" style="color: #0000cd">[2] P. Weinberg and **M.B.**, *SciPost Phys.* **7**, 020 (2019).</a>
 
 Copyright © 2017 Marin Bukov
