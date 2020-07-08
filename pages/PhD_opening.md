@@ -39,7 +39,7 @@ The PhD project involves numerical simulations (with varying extent, depending o
 
 
 
-Scientific  <span style="color:blue">**activities in the group**</span> will include a weekly group meeting to discuss recent progress in the field, and participation in journal clubs and seminars on topics of common interest. Group members may also be asked to help partially with the teaching activities the group is involved in. To build a friendly and productive working environment, VIHREN fellows -- as an integral part of the group --  will be cordially invited to join in non-scientific activities [Sofia lies in between Vitosha mountain and the Balkan mountains which provide many opportunities for outdoor activities, and enjoy four-season weather].
+Scientific  <span style="color:blue">**activities in the group**</span> will include a weekly group meeting to discuss recent progress in the field, and participation in journal clubs and seminars on topics of common interest. Group members may also be asked to help partially with the teaching activities the group is involved in. To build a friendly and productive work environment, VIHREN fellows -- as an integral part of the group --  will be cordially invited to join in non-scientific activities [Sofia lies in between Vitosha mountain and the Balkan mountains which provide many opportunities for outdoor activities, and enjoy four-season weather].
 
 
 VIHREN PhD **fellows are expected to enroll as PhD students**. The stipend covers the PhD program tuition fees for [EU/EEA](https://en.wikipedia.org/wiki/European_Economic_Area) students; non-EU/EEA students should also check the additional criteria for enrolling in a PhD program at Sofia University.  
