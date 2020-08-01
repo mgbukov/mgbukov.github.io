@@ -4,7 +4,7 @@ title: [CV]
 permalink: /CV/
 ---
 
-A [pdf version of my extended CV]({{site.baseurl}}../files/cv_bukov.pdf) as of Sept 1, 2019. 
+A [pdf version of my extended CV]({{site.baseurl}}../files/cv_bukov.pdf) as of May 1, 2020. 
 
 
 ###### __Current occupation__
