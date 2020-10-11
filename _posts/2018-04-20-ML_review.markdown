@@ -6,6 +6,7 @@ date:   2018-03-20 12:00:00
 categories: ML
 author: Marin Bukov
 image: /img/simplevscomplex.png
+address: http://quantum-dynamics.phys.uni-sofia.bg/ML_review/
 ---
 A comprehensive **Review Paper on Deep Learning** techniques and concepts useful in physics: "A High-Bias, Low-Variance Introduction to Machine Learning for Physicists".
 

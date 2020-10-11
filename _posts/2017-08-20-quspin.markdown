@@ -6,6 +6,7 @@ date:   2016-09-01 12:00:00
 categories: quspin
 author: Marin Bukov
 image: /img/quspin.png
+address: http://quantum-dynamics.phys.uni-sofia.bg/quspin/
 ---
 The ability to simulate quantum systems offers invaluable opportunities for building up intuition and understanding about the bizzare world of quantum mechanics. We developed ***QuSpin*** -- an __open source__ Python package for exact diagonalisation and dynamics of quantum many-body systems.
 

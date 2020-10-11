@@ -6,6 +6,7 @@ date:   2018-08-24 12:00:00
 categories: ML
 author: Marin Bukov
 image: /img/Kapitza_website.png
+address: http://quantum-dynamics.phys.uni-sofia.bg/RL_kapitza/
 ---
 A ***Reinforcement Learning*** agent figures out how to ***Control Floquet-Engineered Quantum States*** in a numerical simulation of a quantum experiment. The ability of RL to control systems far away from equilibrium is demonstrated by steering the quantum Kapitza oscillator into the stabilized inverted position in the presence of a strong periodic drive.
 

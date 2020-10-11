@@ -1,0 +1,17 @@
+I"�<p>A comprehensive <strong>Review Paper on Deep Learning</strong> techniques and concepts useful in physics: “A High-Bias, Low-Variance Introduction to Machine Learning for Physicists”.</p>
+
+<p>Machine Learning, data science, and statistics are fields that describe how to learn from, and make predictions about, data. The availability of big datasets is a hallmark of modern science, including physics, where data analysis has become an important component of diverse areas, such as experimental particle physics, observational astronomy and cosmology, condensed matter physics, biophysics, and quantum computing. Moreover, ML and data science are playing increasingly important roles in many aspects of modern technology, ranging from biotechnology to the engineering of self-driving cars and smart devices. Therefore, having a thorough grasp of the concepts and tools used in ML is an important skill that is increasingly relevant in the physical sciences.</p>
+
+<p><strong><em>Contents:</em></strong> The review gives an introduction to Basics of Statistical Learnig Theory, Gradient Descent, Linear and Logistic Regression, Bagging, Boosting and Random Forests, (Deep) Artificial Neural Networks, Concolutional Neural Networks, Principal Component Analysis and t-SNE, Clustering, (Deep) Generative Models and Restricted Boltzmann Machines, Variational Autoencoders and Generative Adversarial Networks.</p>
+
+<p>The review paper comes with a number of <a href="http://physics.bu.edu/~pankajm/MLnotebooks.html"><strong><em>Jupyter notebooks</em></strong></a> with ready python code to help you understand the main concepts, and how to implement them using modern ML packages. They are a great starting point for both numerical experiments and research, and provide the activation energy to get you started on this exciting journey :)</p>
+
+<p>If you’re interested, check out <a href="https://arxiv.org/abs/1803.08823"><strong><em>our review paper</em></strong></a> which introduces Machine Learning using concepts from Statistical Mechanics <span style="color:blue">[1]</span>. Look up also this complementary <a href="https://arxiv.org/abs/1709.02779"><strong><em>ML review</em></strong></a> by V. Dunjko and H. Briegel with focus on quantum physics <span style="color:blue">[2]</span>, and the <a href="https://arxiv.org/abs/1903.10563"><strong><em>more recent review</em></strong></a> by G. Carleo et al. [3]. Florian Marquardt also has a lot of <a href="https://machine-learning-for-physicists.org/"><strong><em>useful material</em></strong></a> online.</p>
+
+<p><em>References</em>:<br />
+<a href="https://arxiv.org/abs/1803.08823" style="color: #0000cd">[1] P. Mehta, <strong>M.B.</strong>, C-H Wang, A. G.R. Day, C. Richardson, C. K. Fisher and D. J. Schwab, <em>Physics Reports</em> (2019).</a><br />
+<a href="https://arxiv.org/abs/1709.02779" style="color: #0000cd">[2] V. Dunjko and H. Briegel, <em>Reports on Progress in Physics</em> <strong>81</strong> 7 074001 (2018).<br />
+<a href="https://arxiv.org/abs/1903.10563" style="color: #0000cd">[3] G. Carleo, I. Cirac, K. Cranmer, L. Daudet, M. Schuld, N. Tishby, L. Vogt-Maranto, and L. Zdeborová, <em>arXiv:1903.10563</em> (2019).</a></a></p>
+
+<p>Copyright © 2018 Marin Bukov</p>
+:ET

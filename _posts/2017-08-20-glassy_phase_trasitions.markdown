@@ -6,6 +6,7 @@ date:   2018-04-15 13:00:00
 categories: control_phases
 author: Marin Bukov
 image: /img/glass_cover-01.png
+address: http://quantum-dynamics.phys.uni-sofia.bg/glassy_phase_trasitions/
 ---
 We present evidence for a universal **spin-glass-like transition in the quantum control landscape**, controlled by the control protocol duration. The glassy critical point is marked by a proliferation of protocols with close-to-optimal fidelity and with an optimal protocol that appears exponentially difficult to find.
 

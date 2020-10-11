@@ -6,6 +6,7 @@ date:   2017-03-20 13:00:00
 categories: control_phases
 author: Marin Bukov
 image: /img/control_phases.png
+address: http://quantum-dynamics.phys.uni-sofia.bg/control_phases/
 ---
 Control problems are optimisation tasks with the objective to find the most efficient solution satisfying given constraints. We demonstrated that the difficulty of finding the optimal solution can change abruptly, resulting in the appearance of ***Control Phase Transitions*** in the optimisation landscape.
 

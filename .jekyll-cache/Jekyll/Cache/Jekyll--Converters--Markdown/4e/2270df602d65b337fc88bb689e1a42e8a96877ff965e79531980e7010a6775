@@ -1,0 +1,56 @@
+I"�#<p>Recent surge of activity in <strong>Periodically Driven many-body Systems</strong> has spawned a new branch of quantum physics, known as <em>Floquet engineering</em>: the synthetic generation of novel Hamiltonians, otherwise inaccessible in static condensed matter systems.</p>
+
+<p>One of the main reasons periodically-driven (Floquet) quantum systems have attracted a lot of attention is that their dynamics can be efficiently described by a time-independent Floquet Hamiltonian $H_F$. Positioned at the border between equilibrium and nonequilibrium, closed Floquet systems represent a natural playground for developing pioneering theories for the phenomena underlying the physics away from equilibrium.</p>
+
+<p>I have been actively studying three main aspects of this ubiquitous field of physics (check out my <a href="/files/Floquet_thesis.pdf">PhD dissertation</a>):</p>
+
+<table class="image" align="right">
+<caption align="bottom"><i>Floquet realization of the Harper-Hofstadter model [4-6].</i></caption>
+<tr><td><img src="/img/floquet.jpg" alt="The Harper-Hofstadter Model" description="Drawing" style="width: 300px; max-width:100%;" /></td></tr>
+</table>
+<p><strong>Floquet Engineering</strong> <span style="color:blue">[1-3]</span> encompasses the study how to ascribe novel properties to the effective Floquet Hamiltonian $H_F$ at high drive frequencies (compared to all other energy scales of the problem). One paradigmatic example is the <a href="https://www.youtube.com/watch?v=rwGAzy0noU0">Kapitza pendulum</a>.</p>
+
+<p>Mastering Floquet Engineering is a difficult problem, since most approaches are typically limited to perturbative and asymptotic expansions of $H_F$. Moreover, it requires the understanding of a fine interplay between virtual (off-shell) and real (on-shell) photon absorption processes, induced by the periodic modulation.</p>
+
+<p>I contributed to this field by writing a review on the topic, systematizing different techniques of Floquet Engineering <span style="color:blue">[1]</span>. I also worked on extending these ideas to strongly-interacting, strongly-driven and resonantly-driven systems <span style="color:blue">[7]</span>, which are notoriously harder to study as they do not admit exact closed-form analytica solutions. A major part of my research is focussed on bringing out the nonequilibrium aspect of these systems, and contrasting it to their deceptive equilibrium-like properties.</p>
+
+<table class="image" align="right">
+<caption align="bottom" style="text-align:center"><i>Adiabatic passage through a photon absorption avoided crossing in the quasienergy spectrum of the Kapitza pendulum. The ground state (red) is hybridized with a higher-energy state (blue) close to the crossing [8].</i>
+</caption>
+<tr><td><img align="right" src="/img/FAPT.png" alt="Drawing" style="width: 350px; max-width:100%;" /></td></tr>
+</table>
+<p><strong>Floquet State Preparation</strong>. Knowing how to engineer a desired Floquet Hamiltonian appears insufficient in many
+experimental situations, since the interesting uderlying physics is not accessible in all of its eigenstates. Therefore, developing a theory for efficiently preparing Floquet states under the presence of periodic modulation can provide a bridge between many theoretical studies and their experimental ralisation.</p>
+
+<p>However, Floquet state preparation is a hard, since closed Floquet systems are not coupled to thermal reservoirs, which could provide a bath to dissipate the energy pumped in by the periodic drive during the loading process. Moreover, the adibatic limit is not well-defined either.</p>
+
+<p>I worked on deriving Floquet Adiabatic Perturbation Theory (FAPT) <span style="color:blue">[8]</span> from first principles, extending Linear Response theory and Quantum Geometry to strong periodic drives. We showed that, even though the adiabatic limit may not be well defined, there exist parametrically large regimes where the predictions of FAPT remain valid, even for nonintegrable many-body systems. We analysed the crucial role of resonances for understanding the breakdown of FAPT.</p>
+
+<table class="image" align="right">
+<caption align="bottom" style="text-align:center"><i>A pair of many-body Floquet resonances resolved with the infinite-frequency Hamiltonian [13].</i>
+</caption>
+<tr><td><img align="right" src="/img/floquet_res.png" alt="Drawing" style="width: 220px; max-width:100%;" /></td></tr>
+</table>
+<p><strong>Floquet (Pre-)Thermalization</strong>. Assuming we have resolved the issues related to preparing a particular desired Floquet state, the interesting physics it hides can still easily remain elusive if the system absorbs a lot of energy from the perioic drive. Intuitively, one may expect that the periodic modulation pumps energy into the system, and ultimately heats it up to a featureless state. Perhaps surprisingly, at large drive frequencies, energy absorption has been found to be at least exponentially suppressed with the drive frequency <span style="color:blue">[9-10]</span>. This opens up a large window where the system enters a pre-thermal Floquet steady state, captured by the physics of the effective Hamiltonian.</p>
+
+<p>The study of (pre-)thermal states emerging due to periodic modulation attempts at finding answers to the questions <em>how</em> and <em>under what conditions</em> Floquet systems heat up. This problem is particularly complicated even in equilibrium, since it generically appears for nonintegrable models where analytical control is scarce. Adding to the complexity, the only fully reliable numerical tool to study thermalisation problems is still Exact Diagonalisation.</p>
+
+<p>I studied extensively pre-thermalisation and stability of strongly-driven weakly-interacting bosonic systems, and developed a conserving approximation for weak interactions, mapping out the parametric stability diagram for the periodically-driven Bose-Hubbard model <span style="color:blue">[11-12]</span>. I also made contributions to understanding the microscopic mechanisms behind energy absorption in strongly-interacting many-body quantum systems <span style="color:blue">[13]</span>: at high driving frequencies energy absorption is inhibited by the locality of the Floquet Hamiltonian, and thermalisation is contrained by emergent effective local (quasi-)conserved quantities out to very long times. At low frequencies, on the other hand, a proliferation of many-body resonances, which are non-perturbative in te inverse driving frequency, leads to unconstrained thermalisation, and the system quickly heats up. These two regimes are separated by extremely slow, non-thermalising dynamics.</p>
+
+<p><em>References</em>:<br />
+<a href="https://arxiv.org/abs/1407.4803" style="color: #0000cd">[1] <strong>M.B.</strong>, L. D’Alessio and A. Polkovnikov, <em>Advances in Physics</em>, Vol. 64, No. 2, 139-226 (2015).</a><br />
+<a href="https://arxiv.org/abs/1404.4373" style="color: #0000cd">[2] N. Goldman and J. Dalibard, <em>Phys. Rev. X</em>, 4, 031027 (2014).</a><br />
+<a href="https://arxiv.org/abs/1606.08041" style="color: #0000cd">[3] A. Eckardt, <em>Rev. Mod. Phys.</em>, 89, 011004 (2017).</a><br />
+<a href="https://arxiv.org/abs/1308.0321" style="color: #0000cd">[4] M. Aidelsburger, M. Atala, M. Lohse, J. T. Barreiro, B. Paredes, and I. Bloch, <em>Phys. Rev. Lett.</em>, 111, 185301 (2013).</a><br />
+<a href="https://arxiv.org/abs/1308.1431" style="color: #0000cd">[5] H. Miyake, G. A. Siviloglou, C. J. Kennedy, W. C. Burton, and W. Ketterle, <em>Phys. Rev. Lett.</em>, 111, 185302 (2013).</a><br />
+<a href="https://arxiv.org/abs/1408.5209" style="color: #0000cd">[6] <strong>M.B.</strong> and A. Polkovnikov, <em>Phys. Rev. A</em>, 90, 043613 (2014).</a><br />
+<a href="https://arxiv.org/abs/1510.02744" style="color: #0000cd">[7] <strong>M.B.</strong>, M. Kolodrubetz and A. Polkovnikov, <em>Phys. Rev. Lett.</em>, 116, 125301 (2016).</a><br />
+<a href="https://arxiv.org/abs/1510.02744" style="color: #0000cd">[8] P. Weinberg, <strong>M.B.</strong>, L. D’Alessio, A. Polkovnikov, S. Vajna, and M. Kolodrubetz, <em>Physics Reports</em>, 688 1-35 (2017).</a><br />
+<a href="https://arxiv.org/abs/1507.01474" style="color: #0000cd">[9] D. Abanin, W. De Roeck, and F. Huveneers, <em>Phys. Rev. Lett.</em>, 115, 256803 (2015).</a><br />
+<a href="https://arxiv.org/abs/1509.03968" style="color: #0000cd">[10] T. Mori, T. Kuwahara, and K. Saito, <em>Phys. Rev. Lett.</em>, 116, 120401 (2016).</a><br />
+<a href="https://arxiv.org/abs/1507.01946" style="color: #0000cd">[11] <strong>M.B.</strong>, S. Gopalakrishnan, M. Knap, and E. Demler, <em>Phys. Rev. Lett.</em>, 115, 205301 (2015).</a><br />
+<a href="https://arxiv.org/abs/1610.02972" style="color: #0000cd">[12] S. Lellouch, <strong>M.B.</strong>, E. Demler, and N. Goldman, <em>Phys. Rev. X</em>, 7, 021015 (2017).</a><br />
+<a href="https://arxiv.org/abs/1512.02119" style="color: #0000cd">[13] <strong>M.B.</strong>, M. Heyl, D. A. Huse, and A. Polkovnikov <em>Phys. Rev. B</em>, 93, 155132 (2016).</a></p>
+
+<p>Copyright © 2017 Marin Bukov</p>
+:ET

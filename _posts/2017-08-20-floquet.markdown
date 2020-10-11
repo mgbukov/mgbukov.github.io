@@ -6,6 +6,7 @@ date:   2017-01-22 14:00:00
 categories: Floquet
 author: Marin Bukov
 image: /img/floquet.jpg
+address: http://quantum-dynamics.phys.uni-sofia.bg/floquet_general/
 ---
 Recent surge of activity in **Periodically Driven many-body Systems** has spawned a new branch of quantum physics, known as *Floquet engineering*: the synthetic generation of novel Hamiltonians, otherwise inaccessible in static condensed matter systems.
 

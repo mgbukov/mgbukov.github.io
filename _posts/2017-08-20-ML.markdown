@@ -6,6 +6,7 @@ date:   2017-05-01 12:00:00
 categories: ML
 author: Marin Bukov
 image: /img/RL_bloch.png
+address: http://quantum-dynamics.phys.uni-sofia.bg/RL_state_preparation/
 ---
 A ***Reinforcement Learning*** agent learns to ***Prepare Quantum States*** in a non-integrable Ising chain. With no
 prior knowledge about the quantum system, the agent learns to extract the essential features of the optimal preparation protocol.

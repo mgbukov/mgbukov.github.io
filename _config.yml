@@ -1,8 +1,8 @@
 # Site settings
 title: Marin Bukov, PhD
-email: mgbukov(at)berkeley.edu
-address: Department of Physics <br> University of California, Berkeley <br> office 339 <br> 366 LeConte Hall MC 7300 <br> Berkeley, CA 94720-7300
-gmaps_coords: 37.8726631,-122.2575264,15z/
+email: mgbukov(at)phys.uni-sofia.bg
+address: Faculty of Physics <br> Sofia University <br> office B42 <br> 5 James Bourchier blvd. <br> Sofia 1164, Bulgaria
+gmaps_coords: 42.673533, 23.329888,17z
 
 description: > # this means to ignore newlines until "baseurl:"
   I study the dynamics of out-of-equilibrium many-body quantum and classical systems. My research focusses on 

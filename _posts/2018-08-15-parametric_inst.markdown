@@ -6,6 +6,7 @@ date:   2018-08-15 12:00:00
 categories: Floquet
 author: Marin Bukov
 image: /img/param_inst.png
+address: http://quantum-dynamics.phys.uni-sofia.bg/parametric_inst/
 ---
 Floquet engineering is an established technique from the quantum simulation toolbox, with the present bottleneck set by unwanted heating. We study the occurrence of ***Parametric Instabilities in Weakly-Interacting Bosonic Optical Lattices***, and showcase the detrimental effects caused by transverse degrees of freedom and weak harmonic traps.
 

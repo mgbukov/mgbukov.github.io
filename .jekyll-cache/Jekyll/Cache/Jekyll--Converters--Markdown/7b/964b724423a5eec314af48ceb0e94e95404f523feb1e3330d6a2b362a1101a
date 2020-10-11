@@ -1,0 +1,57 @@
+I"7"<p>A <strong><em>Reinforcement Learning</em></strong> agent learns to <strong><em>Prepare Quantum States</em></strong> in a non-integrable Ising chain. With no
+prior knowledge about the quantum system, the agent learns to extract the essential features of the optimal preparation protocol.</p>
+
+<p>Machine Learning (ML) ideas have recently been applied to physics to detect phase transitions <span style="color:blue">[1]</span>, and compress quantum mechanical wavefunctions <span style="color:blue">[2]</span>. I have recently become interested in developing and applying Reinforcement Learning (RL) algorithms to study quantum dynamics. RL is a subfield of ML where a computer agent is taught to master a specific task by performing a series of actions in order to maximize a reward function, as a result if interaction with its environment. RL was used in the 90’s to create a computer agent to beat the world’s best backgammon players <span style="color:blue">[3]</span>. Recently, Google DeepMind succeeded in teaching a RL agent to play the video games Atari and Go <span style="color:blue">[4,5]</span>. Inspired by this success, we decided to investigate what insights in physics can be gained from such an approach.</p>
+
+<table class="image" align="center">
+<caption align="bottom"><i>Our computer agent learning how to prepare a target state for a single qubit [7].</i></caption>
+<tr><td>
+	<video width="504" height="326" style="max-width:100%; max-height:100%;" preload="none" controls="" poster="/img/RL_bloch.png">
+		<source src="/movies/RL_post/qubit.mp4" />
+		<source src="/movies/RL_post/qubit.ogv" />
+		<source src="/movies/RL_post/qubit.webm" />
+	</video>
+</td></tr>
+</table>
+<p><br />
+<strong><em>How does it Work?</em></strong>—We used a modified version of Watkins online Q-learning algorithm with linear function approximation and eligibility traces <span style="color:blue">[6]</span> to teach a RL agent to find an optimal protocol sequence to prepare a quantum system in a pre-defined target state <span style="color:blue">[7]</span>. To manipulate the system, our computer agent constructs piecewise-constant protocols of duration $T$ by choosing a drive protocol strength $h_x(t)$ at each discrete time step $t$. One can think of $h_x(t)$ as a magnetic field applied to the system or, more generally — as a control knob. In order to make the agent learn, it is given a reward for every protocol it constructs – the fidelity $ F_h(T)=\lvert \langle\psi_\ast \vert \psi(T)\rangle
+\rvert ^2 $ for being in the target state after time $T$ following the protocol $h_x(t)$ <em>obeying the laws of Quantum Dynamics</em>. The goal of the agent is to maximize the reward $ F_h(T)$ in a series of attempts. Deprived of any knowledge about the underlying physical model, the agent collects information about already tried protocols, based on which it constructs new, improved protocols through a sophisticated biased sampling algorithm[RL paper]. For simplicity, consider bang-bang protocols, (see Fig.), where $h_x(t)\in\{\pm 4\}$, although we verified that RL also works for quasi-continuous protocols with many different protocol steps. You can learn more about our work in <a href="https://arxiv.org/abs/1705.00565">this paper</a>.</p>
+
+<table class="image" align="right">
+<caption align="bottom" style="text-align:center"><i>Bang-bang protocols found by the RL agent for the single qubit (red) and the corresponding variational protocols (blue) [7].</i>
+</caption>
+<tr><td><img align="right" src="/img/RL_protocols.png" alt="Drawing" style="width: 320px; max-width:100%;" /></td></tr>
+</table>
+<p><strong><em>Model</em></strong>—To test the agent, we decided to prepare states in the transverse-field Ising chain:</p>
+
+\[H(t) = -\sum_{j=1}^L \left( JS^z_{j+1}S^z_j + S^z_j + h_x(t)S^x_j\right)\]
+
+<p>To make the model untractable by perturbative analytical calculations, we add a parallel field and choose all couplings to be of the same order of magnitude so there is no small paramter. This model is known to be nonintegrable, and features thermalising (chaotic) dynamics. We choose the paramagnetic ground states of the above Hamiltonian at fields $h_x/J=-2$ and $h_x/J=2$ for the initial and target state, respectively. Even though there is only one control field in the problem, the space of available protocols grows exponentially with the inverse time step size and we have demonstrated numerically that it is exponentially hard to find the optimal protocol <span style="color:blue">[8]</span>.</p>
+
+<p><strong><em>Constrained Qubit Manipulation</em></strong>—To benchmark the performace of the RL agent, let us first set $J=0$, so that the model decouples into a sequence of independent quantum bits, known as qubits. The movie above below shows the learning process of the RL agent for a single qubit. Notice that the protocol the agent finds after a series of attempts has a remarkable feature: without any prior knowledge about the intermediate quantum state nor its Bloch sphere representation [an effective geometric description for the quantum degrees of freedom of a single qubit], the RL agent discovers that it is advantageous to first bring the state to the equator – which is a geodesic – and then effectively turns off the field $h_x(t)$, to enable the fastest possible precession about the $\hat z$-axis. After staying on the equator for as long as optimal, the agent rotates as fast as it can to bring the state as close as possible to the target, thus optimizing the final fidelity for the available protocol duration.</p>
+
+<table class="image" align="center">
+<caption align="bottom"><i>Learning how to prepare a target state in a system of many coupled qubits [7].</i></caption>
+<tr><td>
+	<video width="504" height="326" style="max-width:100%; max-height:100%;" preload="metadata" controls="">
+		<source src="/movies/RL_post/many_qubits.mp4#t=0.3" />
+		<source src="/movies/RL_post/many_qubits.ogv#t=0.3" />
+		<source src="/movies/RL_post/many_qubits.webm#t=0.3" />
+	</video></td></tr>
+</table>
+<p><br />
+<strong><em>Many Coupled Qubits</em></strong>—Back to the non-integrable model $J=1$, it is impossible to visualise the driving protocol due to the exponentially many degrees of freedom in the problem. However, by putting the system on a closed chain and making use of translation invariance, all qubits behave in the same way on every lattice site. Hence, we can trace out all sites but one, and study the properties of the underlying reduced density matrix of the remaining qubit on the Bloch sphere. The second movie shows how our RL agent learns the physics of the many-body system. This counter-intuitive solution can also be found using optimal control algorithms, such as GRAPE <span style="color:blue">[9]</span>, and hints towards the existence of bizzare principles that govern the physics of systems away from equilibrium.</p>
+
+<p><em>References</em>:<br />
+<a href="https://www.nature.com/nphys/journal/v13/n5/full/nphys4035.html" style="color: #0000cd">[1] J. Carrasquilla and R. G. Melko, <em>Nat. Phys.</em> <strong>13</strong>, 431 (2017).</a><br />
+<a href="http://science.sciencemag.org/content/355/6325/602" style="color: #0000cd">[2] G. Carleo and M. Troyer, <em>Science</em> <strong>355</strong>, 602 (2017).</a><br />
+<a href="http://dl.acm.org/citation.cfm?doid=203330.203343" style="color: #0000cd">[3] G. Tesauro, <em>Communications of the ACM.</em> <strong>38</strong> (3) (1995).</a><br />
+<a href="https://www.nature.com/nature/journal/v518/n7540/full/nature14236.html" style="color: #0000cd">[4] V. Mnih <em>et al.</em>, <em>Nature</em> <strong>518</strong>, 529 (2015), letter.</a><br />
+<a href="https://www.nature.com/nature/journal/v518/n7540/full/nature14236.html" style="color: #0000cd">[5] D. Silver,<em>et al.</em>, <em>Nature</em> <strong>529</strong>, 484 (2016), article.</a><br />
+<a href="http://people.inf.elte.hu/lorincz/Files/RL_2006/SuttonBook.pdf" style="color: #0000cd">[6] R. S. Sutton and A. G. Barto, <em>Reinforcement Learning: An Introduction</em> (MIT Press, Cambridge, MA, 2017).</a><br />
+<a href="https://arxiv.org/abs/1705.00565" style="color: #0000cd">[7] <strong>M.B.</strong>, A. G.R. Day, D. Sels, P. Weinberg, A. Polkovnikov, and P. Mehta, <em>Phys. Rev. X</em> <strong>8</strong> 031086 (2018).</a><br />
+<a href="https://arxiv.org/abs/1803.10856" style="color: #0000cd">[8] A. G.R. Day, <strong>M.B.</strong>, P. Weinberg, P. Mehta, and D. Sels, <em>arXiv: 1803.10856</em> (2018).</a><br />
+<a href="" style="color: #0000cd">[9] N. Khaneja, T. Reiss, C. Kehlet, T. Schulte-Herbrüggen, and S. J. Glaser, <em>Journal of Magnetic Resonance</em> <strong>172</strong>, 296 (2005).</a></p>
+
+<p>Copyright © 2017 Marin Bukov</p>
+:ET

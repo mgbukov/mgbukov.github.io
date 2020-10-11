@@ -9,11 +9,11 @@ author: Marin Bukov
 <img align="right" src="/img/bukov.png" alt="mb" description="Drawing" hspace="20" style="width: 160px; max-width:100%;"/>
 ### Welcome to my homepage!
 <br>
-I am currently a Gordon and Betty Moore postdoctoral research fellow at the Physics Department, University of California (Berkeley). I study the dynamics of many-body quantum and classical systems away from equilibrium.
+I am currently a Junior Group Leader and Marie Sklodowska-Curie fellow at the Physics Department, Sofia University. I study the dynamics of many-body quantum and classical systems away from equilibrium.
 My research focusses on Condensed Matter Physics, Ultracold Atoms, Statistical Mechanics, and the interplay between Machine Learning and Physics.
 <br>
 <br>
-You can learn more about me and my research on this website. 
+Check out the [**website of my research group**](http://quantum-dynamics.phys.uni-sofia.bg/). **This page is no longer maintained.** (01/10/2020) 
 
  
 Copyright © 2017 Marin Bukov
