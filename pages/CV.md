@@ -54,7 +54,7 @@ __*Postdoctoral Researcher, Physics (2017-2020)*__, University of California, Be
 
 
 __*Ph.D., Physics (2017)*__, Boston University, USA
-* *dissertation:* [Floquet Engineering in Periodically Driven Closed Quantum Systems: from Dynamical Localisation to Ultracold Topological Matter]({{ site.baseurl }}/files/Floquet_thesis.pdf)
+* *dissertation:* [Floquet Engineering in Periodically Driven Closed Quantum Systems: from Dynamical Localisation to Ultracold Topological Matter](https://open.bu.edu/handle/2144/43881)
 * *advisor:* Anatoli Polkovnikov
 
 __*M.Sc., Theoretical and Mathematical Physics (2013)*__, Ludwig-Maximilians-Universität and Technische Universität München, Germany
