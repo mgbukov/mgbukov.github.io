@@ -1,20 +1,13 @@
----
-layout: post
-title: "" 
-date:   2020-03-01 00:00:00
-categories: bio
-highlight: true
-author: Marin Bukov
----
-<img align="right" src="/img/bukov.png" alt="mb" description="Drawing" hspace="20" style="width: 160px; max-width:100%;"/>
-### Welcome to my homepage!
-<br>
-I am a research group leader at the Max Planck Institute for the Physics of Complex Systems in Dresden Germany. Check out the [**website of our group**](https://www.pks.mpg.de/nqd). 
+I"�<p><img align="right" src="/img/bukov.png" alt="mb" description="Drawing" hspace="20" style="width: 160px; max-width:100%;" /></p>
+<h3 id="welcome-to-my-homepage">Welcome to my homepage!</h3>
+<p><br />
+I am a research group leader at the Max Planck Institute for the Physics of Complex Systems in Dresden Germany. Check out the <a href="https://www.pks.mpg.de/nqd"><strong>website of our group</strong></a>. 
 <!-- I am currently a Junior Group Leader and Marie Sklodowska-Curie fellow at the Physics Department, Sofia University. I study the dynamics of many-body quantum and classical systems away from equilibrium.
 My research focusses on Condensed Matter Physics, Ultracold Atoms, Statistical Mechanics, and the interplay between Machine Learning and Physics. -->
 <!-- <br>
 <br>
 Check out the [**website of my research group**](http://quantum-dynamics.phys.uni-sofia.bg/). **This page is no longer maintained.** (01/10/2020) 
- -->
- 
-Copyright © 2017 Marin Bukov
+ --></p>
+
+<p>Copyright © 2017 Marin Bukov</p>
+:ET

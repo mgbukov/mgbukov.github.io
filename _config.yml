@@ -1,8 +1,10 @@
 # Site settings
 title: Marin Bukov, PhD
 email: mgbukov(at)phys.uni-sofia.bg
-address: Faculty of Physics <br> Sofia University <br> office B42 <br> 5 James Bourchier blvd. <br> Sofia 1164, Bulgaria
-gmaps_coords: 42.673533, 23.329888,17z
+# address: Faculty of Physics <br> Sofia University <br> office B42 <br> 5 James Bourchier blvd. <br> Sofia 1164, Bulgaria
+address: Max Planck Institute <br> for the Physics of Complex Systems <br> Noethnitzer Str 38 <br> Dresden, 01187, Germany
+#gmaps_coords: 42.673533, 23.329888,17z
+gmaps_coords: 51.02658, 13.71688, 17z
 
 description: > # this means to ignore newlines until "baseurl:"
   I study the dynamics of out-of-equilibrium many-body quantum and classical systems. My research focusses on 
