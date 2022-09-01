@@ -9,7 +9,7 @@ permalink: /CV/
 <br>
 
 
-<p style="color:red; font-weight: bold;">A pdf version of my extended CV as of July 1, 2021 is  <a href="{{ site.baseurl | replace: '//', '/' }}/files/cv_bukov.pdf">available here</a>.</p>
+<p style="color:red; font-weight: bold;">A pdf version of my extended CV as of Sep 1, 2022 is  <a href="{{ site.baseurl | replace: '//', '/' }}/files/cv_bukov.pdf">available here</a>.</p>
 
 <br>
 
