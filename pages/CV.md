@@ -9,14 +9,14 @@ permalink: /CV/
 <br>
 
 
-<p style="color:red; font-weight: bold;">A pdf version of my extended CV as of Sep 1, 2022 is  <a href="{{ site.baseurl | replace: '//', '/' }}/files/cv_bukov.pdf">available here</a>.</p>
+A pdf version of my [CV is available here](https://www.pks.mpg.de/fileadmin/user_upload/MPIPKS/group_pages/NQD/CV_bukov.pdf).
+
+
+<!-- <p style="color:red; font-weight: bold;">A pdf version of my extended CV as of Sep 1, 2022 is  <a href="{{ site.baseurl | replace: '//', '/' }}/files/cv_bukov.pdf">available here</a>.</p>
 
 <br>
 
-<!-- 
-##### __Current Occupation__
 
- -->
 
 ##### __Research Interests__
 
@@ -74,7 +74,7 @@ __*Abitur (2008)*__ [allgemeine Hochschulreife], Bildungsinländer, Deutsche Abt
 __*Matura (2008)*__ [general university entrance examinations], First German High School Sofia, Bulgaria
 
 
-
+ -->
 
 
 <br><br>
